@@ -4,4 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
+import './src/styles/app.css';
+import './src/styles/block-library.css';
+import './src/styles/contact-form.css';
+import './src/styles/contact-fields.css';
