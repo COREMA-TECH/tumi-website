@@ -1,51 +1,50 @@
 import React from "react"
-
 import GGWA_LOGO_WHITE from '../images/GGWA_WINNER_Logo_2019_White.png';
 
 const NavBlock = _ => {
     return (
-        <>
-            <nav id="site-menu" className="top-bar">
-                <div className="row clearfix collapse">
-                    <div className="small-6 columns">
+        <>  
+            <nav id="site-menu" class="top-bar">
+                <div class="row clearfix collapse">
+                    <div class="small-6 columns">
                         <a id="site-logo" href="https://www.whitelodging.com">
-                            <svg className="logo-mark" role="img" title="White Lodging Logo Mark" viewBox="0 0 31.39 27.95">
-                                <use href="#logo-mark">
+                            <svg class="logo-mark" role="img" title="White Lodging Logo Mark" viewBox="0 0 31.39 27.95">
+                                <use href="#logo-mark"/>
                             </svg>
-                            <span className="logo-text-wrapper">
-                                <svg className="logo-text" role="img" title="White Lodging Logo Type" viewBox="0 0 230 18">
-                                    <use href="#logo-text"> 
+                            <span class="logo-text-wrapper">
+                                <svg class="logo-text" role="img" title="White Lodging Logo Type" viewBox="0 0 230 18">
+                                    <use href="#logo-text"/>
                                 </svg>
                             </span>
                         </a>
                     </div>
-                    <div className="small-6 columns text-right">
-                        <div className="cta-wrapper apply-now-wrapper">
-                            <a className="border-btn" href="https://css-whitelodging-prd.inforcloudsuite.com/hcm/CandidateSelfService/controller.servlet?dataarea=hcm&context.session.key.JobBoard=EXTERNAL&context.session.key.HROrganization=75" target="_blank">Apply Now</a>
+                    <div class="small-6 columns text-right">
+                        <div class="cta-wrapper apply-now-wrapper">
+                            <a class="border-btn" href="https://css-whitelodging-prd.inforcloudsuite.com/hcm/CandidateSelfService/controller.servlet?dataarea=hcm&context.session.key.JobBoard=EXTERNAL&context.session.key.HROrganization=75" target="_blank">Apply Now</a>
                         </div>
                         <a id="menu-toggle" data-toggle="site-body">
-                            <span className="menu-inner"></span>
-                            <p className="menu-title">Menu</p>
+                            <span class="menu-inner"></span>
+                            <p class="menu-title">Menu</p>
                         </a>
                     </div>
                 </div>
-                <div className="expanded-content">
-                    <div className="navigation-container row large-collapse clearfix">
-                        <div className="wl-award-block show-for-large">
+            <div class="expanded-content">          
+                <div class="navigation-container row large-collapse clearfix">
+                        <div class="wl-award-block show-for-large">
                             <img src={GGWA_LOGO_WHITE} alt=""/>
-                            <div className="wl-award-block-btn">
+                            <div class="wl-award-block-btn">
                                 <a href="https://www.whitelodging.com/white-lodging-named-one-of-gallups-great-workplaces-for-second-straight-year" target="_blank">Learn More</a>
                             </div>
                         </div>
-                        <div className="small-12 large-9 columns">
-                            <div className="row large-collapse">
-                                <div className="small-12 large-4 columns">
+                        <div class="small-12 large-9 columns">
+                            <div class="row large-collapse">
+                                <div class="small-12 large-4 columns">
                                     <nav id="primary">
-                                        <ul className="menu vertical">
-                                            <li className="menu-item-page-cta"><a href="https://css-whitelodging-prd.inforcloudsuite.com/hcm/CandidateSelfService/controller.servlet?dataarea=hcm&context.session.key.JobBoard=EXTERNAL&context.session.key.HROrganization=75"  target="_blank">Apply Now</a></li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                                                <a href="https://www.whitelodging.com/careers/">Careers<span className="expand-toggle"></span></a>
-                                                <ul className="sub-menu">
+                                        <ul class="menu vertical">
+                                            <li class="menu-item-page-cta"><a href="https://css-whitelodging-prd.inforcloudsuite.com/hcm/CandidateSelfService/controller.servlet?dataarea=hcm&context.session.key.JobBoard=EXTERNAL&context.session.key.HROrganization=75"  target="_blank">Apply Now</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                                <a href="https://www.whitelodging.com/careers/">Careers<span class="expand-toggle"></span></a>
+                                                <ul class="sub-menu">
                                                     <li><a href="https://www.whitelodging.com/careers/#why-white-lodging">Why White Lodging</a></li>
                                                     <li><a href="https://www.whitelodging.com/careers/#success-stories">Success Stories</a></li>
                                                     <li><a href="https://www.whitelodging.com/careers/#locations">LOCATIONS</a></li>
@@ -53,9 +52,9 @@ const NavBlock = _ => {
                                                     <li><a href="https://www.whitelodging.com/careers/#new-grads-interns">New Grads & Interns</a></li>
                                                 </ul>
                                             </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                                                <a href="https://www.whitelodging.com/story/">Story<span className="expand-toggle"></span></a>
-                                                <ul className="sub-menu">
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                                <a href="https://www.whitelodging.com/story/">Story<span class="expand-toggle"></span></a>
+                                                <ul class="sub-menu">
                                                     <li><a href="https://www.whitelodging.com/story/#chairmans-message">chairmans message</a></li>
                                                     <li><a href="https://www.whitelodging.com/story/#history">History</a></li>
                                                     <li><a href="https://www.whitelodging.com/story/#team">Team</a></li>
@@ -63,9 +62,9 @@ const NavBlock = _ => {
                                                     <li><a href="https://www.whitelodging.com/story/#milestones">milestones</a></li>
                                                 </ul>
                                             </li>
-                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
-                                                <a href="https://www.whitelodging.com/services/">Services<span className="expand-toggle"></span></a>
-                                                <ul className="sub-menu">
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                                <a href="https://www.whitelodging.com/services/">Services<span class="expand-toggle"></span></a>
+                                                <ul class="sub-menu">
                                                     <li><a href="https://www.whitelodging.com/services/#investment-development">Investment Development</a></li>
                                                     <li><a href="https://www.whitelodging.com/services/#hotel-developments">Hotel Developments</a></li>
                                                     <li><a href="https://www.whitelodging.com/services/#f-b-innovation">F&B Innovation</a></li>
@@ -73,74 +72,74 @@ const NavBlock = _ => {
                                                     <li><a href="https://www.whitelodging.com/services/#management">management</a></li>
                                                 </ul>
                                             </li>
-                                            <li className='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-has-children'>
-                                                <a href='https://www.whitelodging.com/portfolio/hotels/'>Portfolio<span className="expand-toggle"></span></a>
-                                                <ul className='sub-menu'>
-                                                    <li className='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/portfolio/hotels/'>Hotels</a></li>
-                                                    <li className='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/portfolio/restaurants/'>Restaurants</a></li>
+                                            <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-has-children'>
+                                                <a href='https://www.whitelodging.com/portfolio/hotels/'>Portfolio<span class="expand-toggle"></span></a>
+                                                <ul class='sub-menu'>
+                                                    <li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/portfolio/hotels/'>Hotels</a></li>
+                                                    <li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/portfolio/restaurants/'>Restaurants</a></li>
                                                 </ul>
                                             </li>
-                                            <li className='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/contact/'>Contact</a></li>
-                                            <li className='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/news-events/'>News &#038; Events</a></li>
-                                            <li className='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-has-children'>
-                                                <a href='https://www.whitelodging.com/gallery/gallery-1/'>Gallery<span className="expand-toggle"></span></a>
-                                                <ul className='sub-menu'>
-                                                    <li className='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/gallery/gallery-1/'>Portfolio</a></li>
-                                                    <li className='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/gallery/video-gallery/'>Video Gallery</a></li>
-                                                    <li className='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/whitelodgingeats/'>White Lodging Eats</a></li>
+                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/contact/'>Contact</a></li>
+                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/news-events/'>News &#038; Events</a></li>
+                                            <li class='menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-has-children'>
+                                                <a href='https://www.whitelodging.com/gallery/gallery-1/'>Gallery<span class="expand-toggle"></span></a>
+                                                <ul class='sub-menu'>
+                                                    <li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/gallery/gallery-1/'>Portfolio</a></li>
+                                                    <li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/gallery/video-gallery/'>Video Gallery</a></li>
+                                                    <li class='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://www.whitelodging.com/whitelodgingeats/'>White Lodging Eats</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </nav>
-                                    <div className="wl-award-block hide-for-large">
-                                        <img src={GGWA_LOGO_WHITE} alt="Galup Great Workplace Award 2019"/>
-                                        <div className="wl-award-block-btn">
+                                    <div class="wl-award-block hide-for-large">
+                                        <img src={GGWA_LOGO_WHITE} alt=""/>
+                                        <div class="wl-award-block-btn">
                                             <a href="https://www.whitelodging.com/white-lodging-named-one-of-gallups-great-workplaces-for-second-straight-year" target="_blank">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="show-for-large large-3 columns">
-                            <div className="row collapse">
-                                <div className="column">
+                        <div class="show-for-large large-3 columns">
+                            <div class="row collapse">
+                                <div class="column">
                                     <h4>What To Watch</h4>
-                                    <div className="pretty-embed" data-pe-videoid="YxrYGofYwhU" data-pe-fitvids="true"></div>
+                                    <div class="pretty-embed" data-pe-videoid="YxrYGofYwhU" data-pe-fitvids="true"></div>
                                 </div>
                             </div>
-                            <div className="row collapse">
-                                <div className="column">
+                            <div class="row collapse">
+                                <div class="column">
                                     <h4>Latest News</h4>
-                                    <div className="news-release">
+                                    <div class="news-release">
                                         <p><a href="https://www.whitelodging.com/white-lodging-announces-general-manager-for-new-austin-marriott-downtown/"><time datetime="2019-05-30">05.30.2019</time></a></p>
                                         <p>White Lodging is excited to introduce David Meisner as the general manager for the Austin Marriott Downtown, which is slated to open its doors in summer 2020. David is currently&hellip;</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="tweet row collapse">
-                                <div className="column">
+                            <div class="tweet row collapse">
+                                <div class="column">
                                     <h4>From Twitter</h4>
-                                    <p>We're excited to announce David Meisner as GM for the Austin Marriott Downtown, opening summer 2020. https://t.co/NUNSUQSueO <a href="http://twitter.com/whitelodging/status/1136271549714055168" target="_blank">https://t.co/deWHW0plSb</a> <time datetime="2019-06-05">- June 05, 2019 02:00PM</time></p>
+                                    <p>Opening this fall! Celebrate the history of Louisville’s Whiskey Row with Hotel Distil’s Repeal and Bitters End. https://t.co/jqhrgLUfHz <a href="http://twitter.com/whitelodging/status/1136636015014273024" target="_blank">https://t.co/deWHW0plSb</a> <time datetime="2019-06-06">- June 06, 2019 02:08PM</time></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <ul className="social">
-                        <li><a className="icon-twitter" href="https://twitter.com/whitelodging"><span>twitter</span></a></li>
-                        <li><a className="icon-instagram-filled" href="https://instagram.com/whitelodging"><span>instagram-filled</span></a></li>
-                        <li><a className="icon-linkedin" href="http://www.linkedin.com/company/white-lodging-services"><span>linkedin</span></a></li>
-                        <li><a className="icon-facebook" href="https://www.facebook.com/whitelodgingservices"><span>facebook</span></a></li>
+                    <ul class="social">
+                        <li><a class="icon-twitter" href="https://twitter.com/whitelodging"><span>twitter</span></a></li>
+                        <li><a class="icon-instagram-filled" href="https://instagram.com/whitelodging"><span>instagram-filled</span></a></li>
+                        <li><a class="icon-linkedin" href="http://www.linkedin.com/company/white-lodging-services"><span>linkedin</span></a></li>
+                        <li><a class="icon-facebook" href="https://www.facebook.com/whitelodgingservices"><span>facebook</span></a></li>
                     </ul>
                 </div>
             </nav>
-            <div className="nav-bg">
-                <div className="row rule-lines">
+            <div class="nav-bg">
+                <div class="row rule-lines">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
             </div>
-            <div hidden className="hide">
+            <div hidden class="hide">
                 <svg xmlns="http://www.w3.org/2000/svg">
                     <symbol id="arrow-down-small" viewBox="0 0 10.49 14.06">
                         <polygon points="9 6.9 6.26 9.94 6.26 0 4.26 0 4.26 9.98 1.49 6.9 0 8.23 5.24 14.06 10.49 8.23 9 6.9"/>

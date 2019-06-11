@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from 'react-helmet';
 
 const Footer = _ => {
     return (
@@ -9,12 +10,12 @@ const Footer = _ => {
                         <div className="small-10 small-centered medium-4 columns">
                             <a className="wl-logo" href="./">
                                 <svg role="img" title="White Lodging" viewBox="0 0 535.65 147.94">
-                                    <use href="#white-lodging">
+                                    <use href="#white-lodging"/>
                                 </svg>
                             </a>
                         </div>
                         <div className="column">
-                            <hr className="black">
+                            <hr className="black"/>
                         </div>
                     </div>
                     <div className="row clearfix heading-row">
@@ -47,7 +48,7 @@ const Footer = _ => {
                         <div className="small-12 large-3 columns show-for-large">
                             <a className="wl-logo" href="https://www.whitelodging.com">
                                 <svg role="img" title="White Lodging" viewBox="0 0 535.65 147.94">
-                                    <use href="#white-lodging">
+                                    <use href="#white-lodging"/>
                                 </svg>
                             </a>
                         </div>
@@ -89,6 +90,10 @@ const Footer = _ => {
                     </div>
                 </footer>
             </div>
+            <Helmet>
+                <script src={'app-original.js'} />
+                <script src={'app.js'} />
+            </Helmet>
         </>
     );
 }

@@ -48,7 +48,7 @@ const MainContent = _ => {
                                     <div className="wl-award-block hide-for-large inverted">
                                         <img src={GGWA_LOGO_DARK} alt="GGWA Winner 2019 Dark"/>
                                         <div className="wl-award-block-btn">
-                                            <a href="https://www.whitelodging.com/white-lodging-named-one-of-gallups-great-workplaces-for-second-straight-year" target="_blank">Learn More</a>
+                                            <a href="https://www.whitelodging.com/white-lodging-named-one-of-gallups-great-workplaces-for-second-straight-year" rel="noopener noreferrer" target="_blank">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
