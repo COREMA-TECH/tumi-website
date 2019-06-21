@@ -48,7 +48,8 @@ export default function HTML(props) {
 
         {props.headComponents}
       </head>
-      <body id="site-body" className="home page-template-default page page-id-2" {...props.bodyAttributes}>
+      {/* <body id="site-body" className="home page-template-default page page-id-2" {...props.bodyAttributes}> */}
+      <body id="site-body" {...props.bodyAttributes}>
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
           This app works best with JavaScript enabled.

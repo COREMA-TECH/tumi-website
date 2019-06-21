@@ -1,57 +1,15 @@
-import React from "react"
-import TUMI_LOGO from '../images/tumi-logo.png';
-import {Link} from 'gatsby';
+import React, { Fragment } from 'react';
+import Helmet from 'react-helmet';
 
-const NavBlock = _ => {
+const PostPage = props => {
     return (
-        <>  
-            <nav id="site-menu" class="top-bar">
-                <div class="row clearfix collapse">
-                    <div class="small-6 columns">
-                        <Link id="site-logo" className='Tumi-logo' to="/">
-                            <img src={TUMI_LOGO} alt="Tumi Staffing, Inc."/>
-                        </Link>
-                    </div>
-                    <div class="small-6 columns text-right">
-                        <div class="cta-wrapper apply-now-wrapper">
-                            <a class="border-btn" href="http://orion-dev-web.us-east-2.elasticbeanstalk.com/employment-application" target="_blank">Apply Now</a>
-                        </div>
-                        <a id="menu-toggle" data-toggle="site-body">
-                            <span class="menu-inner"></span>
-                            <p class="menu-title">Menu</p>
-                        </a>
-                    </div>
-                </div>
-            <div class="expanded-content">          
-                <div class="navigation-container row large-collapse clearfix">                        
-                        <div class="small-12 large-9 columns">
-                            <div class="row large-collapse">
-                                <div class="small-12 large-4 columns">
-                                    <nav id="primary">
-                                        <ul class="menu vertical">
-                                            <li class="menu-item-page-cta"><a href="http://orion-dev-web.us-east-2.elasticbeanstalk.com/employment-application"  target="_blank">Apply Now</a></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/">Home</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/">About Us</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/services">Services</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/compliance">Compliance</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/employment">Employment</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/">Connections</Link></li>
-                                        </ul>
-                                    </nav>                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-for-large large-3 columns">
-                            &nbsp;
-                        </div>
-                    </div>
-                    <ul class="social">
-                        <li><a class="Social-icon twitter" href="https://twitter.com/StaffingTumi"><i class="fab fa-twitter"></i></a></li>
-                        <li><a class="Social-icon linkedin" href="https://www.linkedin.com/company/tumi-staffing/about/"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a class="Social-icon facebook" href="https://www.facebook.com/TUMISTAFFING/?ref=page_internal"><i class="fab fa-facebook-f"></i></a></li>
-                    </ul>
-                </div>
-            </nav>
+        <Fragment>
+            <Helmet 
+                bodyAttributes={{
+                    class: 'success-story-template-default single single-success-story postid-418'
+                }}
+            />
+
             <div class="nav-bg">
                 <div class="row rule-lines">
                     <span></span>
@@ -134,8 +92,39 @@ const NavBlock = _ => {
                     </filter>
                 </svg>
             </div>
-        </>
-    );
+            <main id="main-container" role="main">
+                <section class="MainPost">
+                    <div class="banner-container">                        
+                        <div class="section-bg fixed">
+                            <div class="section-overlay"></div>
+                            <img width="1600" height="1200" src={props.banner} class="image-cover object-fit" alt="Human Resources Manager Jasmine Reed stands in the hotel lobby of Louisville Marriott Downtown, with plush armchairs and lantern lights in the background." />				
+                        </div>
+                    </div>
+                    <div class="inner-section no-padding" data-waypoint-trigger>
+                        <div class="row collapse">
+                            <div class="large-6 columns MainPost-content left">
+                                <div class="container white-bg large-padded">
+                                    <div class="above-the-fold">
+                                        <h1>{props.pageTitle}</h1>
+                                        <h2 class="text-uppercase small-h2">{props.pageSubtitle}</h2>                                        
+                                    </div>
+                                    {props.renderLeftBlock()}                                    
+                                </div>                                
+                            </div>
+                            <div class="large-6 columns MainPost-content right">
+                                <div class="image-block show-for-large">
+                                    <img src={props.contentPic} alt=""/>
+                                </div>                                
+                                <div class="image-block hide-for-large">
+                                    <img src={props.contentPic} alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </Fragment>
+    ) 
 }
 
-export default NavBlock;
+export default PostPage;

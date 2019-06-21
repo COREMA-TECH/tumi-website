@@ -1,5 +1,7 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
+import TUMI_LOGO from '../images/tumi-logo.png';
+import {Link} from 'gatsby';
 
 const Footer = _ => {
     return (
@@ -8,11 +10,9 @@ const Footer = _ => {
                 <section className="latest-news">
                     <div className="row hide-for-large">
                         <div className="small-10 small-centered medium-4 columns">
-                            <a className="wl-logo" href="./">
-                                <svg role="img" title="White Lodging" viewBox="0 0 535.65 147.94">
-                                    <use href="#white-lodging"/>
-                                </svg>
-                            </a>
+                            <Link id="site-logo" className='Tumi-logo' to="/">
+                                <img src={TUMI_LOGO} alt="Tumi Staffing, Inc."/>
+                            </Link>
                         </div>
                         <div className="column">
                             <hr className="black"/>
@@ -46,11 +46,9 @@ const Footer = _ => {
                 <footer id="site-footer">
                     <div className="row">
                         <div className="small-12 large-3 columns show-for-large">
-                            <a className="wl-logo" href="https://www.whitelodging.com">
-                                <svg role="img" title="White Lodging" viewBox="0 0 535.65 147.94">
-                                    <use href="#white-lodging"/>
-                                </svg>
-                            </a>
+                            <Link id="site-logo" className='Tumi-logo' to="/">
+                                <img src={TUMI_LOGO} alt="Tumi Staffing, Inc."/>
+                            </Link>
                         </div>
                         <div className="small-12 large-offset-1 large-8 columns">
                             <div className="row">
@@ -78,11 +76,8 @@ const Footer = _ => {
                                 <div className="small-12 medium-6 columns">
                                     <div className="row">
                                         <div className="small-10 small-centered medium-6 medium-uncentered columns text-center medium-text-left" data-mh="footer-columns">
-                                            <p><a href="https://wlr.wlscorp.com/SitePages/Home.aspx" target="_blank">&copy;</a> 2019 White Lodging Services, Inc. All rights reserved</p>
-                                        </div>
-                                        <div className="small-12 medium-6 columns text-center medium-text-right made-by-wallop" data-mh="footer-columns">
-                                            <a href="http://wallop.ca/" target="_blank">Made by Wallop</a>
-                                        </div>
+                                            <p><a href="/" target="_blank">&copy;</a> 2019 TUMI Staffing, Inc. All rights reserved</p>
+                                        </div>                                        
                                     </div>
                                 </div>
                             </div>

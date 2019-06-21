@@ -1,11 +1,6 @@
 import React from 'react';
 
-import GGWA_LOGO_WHITE from '../images/GGWA_WINNER_Logo_2019_White.png';
-import GGWA_LOGO_DARK from '../images/GGWA_WINNER_Logo_2019_Dark.png';
-import landing_slide from '../images/landing-slide.jpg';
 import op_supervisor_dulce from '../images/Operations-Supervisor_Dulce-Falfan-1280x945-1.jpg';
-import join_our_team from '../images/A005_C055_1011I9-640x320.jpg';
-import corporate_hq from '../images/Corporate_HQ-640x320.jpg';
 
 import about_claudia_testimonial from '../images/about-claudia-robbins.png';
 import about_stephen_testimonial from '../images/about-stephen-robbins.png';
@@ -58,7 +53,7 @@ const MainContent = _ => {
                                 <div className="small-12 large-4 large-offset-1 columns">
                                     <div className="row">
                                         <div className="small-12 medium-10 medium-centered large-12 columns">
-                                            <h2 className="h1">WELCOME TO<br />WHITE LODGING</h2>
+                                            <h2 className="h1">WELCOME TO<br />TUMI STAFFING</h2>
                                             <p className="show-for-large"><a href="https://www.whitelodging.com/story/" className="border-btn">About Us</a></p>
                                         </div>
                                     </div>
@@ -66,15 +61,12 @@ const MainContent = _ => {
                                 <div className="small-12 large-5 large-offset-1 columns end">
                                     <div className="row">
                                         <div className="small-12 medium-10 medium-centered large-12 columns">
-                                            <p>White Lodging has been one of the fastest-growing hotel ownership, development and management companies in America since it&#8217;s inception in 1985. We consistently deliver superior results and returns on investment.</p>
-                                            <p>Mid-size and large-scale owners look to us for an array of services to drive sustained growth, including:</p>
-                                            <ul>
-                                                <li>Hotel and Restaurant Operational Services</li>
-                                                <li>Support Services</li>
-                                                <li>Real Estate Investment &amp; Development</li>
-                                                <li>Organizational Resources for Hotel Property Management</li>
-                                            </ul>
-                                            <p className="hide-for-large"><a href="https://www.whitelodging.com/story/" className="border-btn">About Us</a></p>
+                                            <p>
+                                                What you want to do and what you can do... Is limited only by what you can dream
+                                            </p>
+                                            <p>
+                                                Tumi Staffing is one of the nation's premier hospitality staffing providers. Formed by hospitality professionals, we are dedicated to helping your hotel achieve greater customer satisfaction, increased QA scores, boost efficiencies and reduce costs. With our background in the hospitality industry and our dedication to quality, we are uniquely positioned to help your hotel achieve greater bottom line profits while increasing guest satisfaction. 
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -103,8 +95,7 @@ const MainContent = _ => {
                                     <div className="row">
                                         <div className="small-12 medium-10 medium-centered large-12 columns">
                                             <p>
-                                                Formed by hospitality professionals, we are dedicated to helping your hotel achieve greater
-                                                customer satisfaction, increased QA scores, boost efficiencies and reduce cost.
+                                                Our commitment doesn't stop at the end of your work day. We are working behind the scenes, scheduling employees, processing time and attendance data, and working with your management team 24 hours a day to ensure that our employees merge with your operations in a seamless partnership.
                                             </p>
                                         </div>
                                     </div>
