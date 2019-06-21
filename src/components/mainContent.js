@@ -13,6 +13,7 @@ import moxy_chicago from '../images/Moxy-Chicago-Exterior-Composite-1600x1200-64
 import ac_lem from '../images/AC-LeM-1600x1200-640x520.jpg';
 import zombie_taco from '../images/46A5106_2-640x520.jpg';
 import conners_pancakes from '../images/Conners_Pancakes-640x520.jpg';
+import austin_skyline from '../images/austin-skyline.jpg';
 
 const MainContent = _ => {
     return (
@@ -96,17 +97,11 @@ const MainContent = _ => {
                         </section>
                         <section className="section-container book-ends white-bg">
                             <div className="row no-padding collapse">
-                                <div className="small-12 medium-6 columns">
-                                    <a href="https://css-whitelodging-prd.inforcloudsuite.com/hcm/CandidateSelfService/controller.servlet?dataarea=hcm&context.session.key.JobBoard=EXTERNAL&context.session.key.HROrganization=75#">
+                                <div className="small-12 columns">
+                                    <a href="#">
                                     <span className="border-btn white">Join Our Team</span>
-                                    <img width="640" height="320" src={join_our_team} className="attachment-640x320 size-640x320" alt="" /><img className="duotone" src={join_our_team} width="640" height="320" aria-hidden />
-                                    </a>
-                                </div>
-                                <div className="small-12 medium-6 columns">
-                                    <a href="https://www.whitelodging.com/news-events/">
-                                    <span className="border-btn white">What's New</span>
-                                    <img width="640" height="320" src={corporate_hq} className="attachment-640x320 size-640x320" alt="An exterior shot of White Lodging&#039;s Corporate HQ." /><img className="duotone" src={corporate_hq} width="640" height="320" aria-hidden />
-                                    </a>
+                                    <img src={austin_skyline} className="attachment-640x320 size-640x320" alt="" /><img className="duotone" src={austin_skyline} aria-hidden />
+                                    </a>                               
                                 </div>
                             </div>
                         </section>
@@ -115,19 +110,17 @@ const MainContent = _ => {
                                 <div className="small-12 large-4 large-offset-1 columns">
                                     <div className="row">
                                         <div className="small-12 medium-10 medium-centered large-12 columns">
-                                            <h2 className="h1">STEP UP.<br/>STAND OUT.</h2>
-                                            <p className="show-for-large"><a href="https://www.whitelodging.com/careers/" className="border-btn">Learn More</a></p>
+                                            <h2 className="h1">JOIN THE FAMILY.</h2>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="small-12 large-5 large-offset-1 columns end">
                                     <div className="row">
                                         <div className="small-12 medium-10 medium-centered large-12 columns">
-                                            <p>Passionate. Driven. Motivated. That&#8217;s who we are.  We&#8217;re looking for people who can see the qualities of White Lodging reflected in their own character.</p>
-                                            <p>Jobs in hospitality were made for people who love to serve and succeed.<br />
-                                                Sound good? White Lodging is the perfect place for you.
+                                            <p>
+                                                Formed by hospitality professionals, we are dedicated to helping your hotel achieve greater
+                                                customer satisfaction, increased QA scores, boost efficiencies and reduce cost.
                                             </p>
-                                            <p className="hide-for-large"><a href="https://www.whitelodging.com/careers/" className="border-btn">Learn More</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -168,16 +161,17 @@ const MainContent = _ => {
                                 <div className="small-12 large-4 large-offset-1 columns">
                                     <div className="row">
                                         <div className="small-12 medium-10 medium-centered large-12 columns">
-                                            <h2 className="h1">Investment & Development</h2>
-                                            <p className="show-for-large"><a href="https://www.whitelodging.com/services/" className="border-btn">Learn more</a></p>
+                                            <h2 className="h1">Employment</h2>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="small-12 large-5 large-offset-1 columns end">
                                     <div className="row">
                                         <div className="small-12 medium-10 medium-centered large-12 columns">
-                                            <p>White Lodging is one of America&#8217;s most experienced and most strategic hotel developers.  More than 130 premium branded new builds representing over $3.5 billion in investments have been completed over the last 25 years.</p>
-                                            <p className="hide-for-large"><a href="https://www.whitelodging.com/services/" className="border-btn">Learn more</a></p>
+                                            <p>We understand the value of a smiling face and a kind word to the guests.</p>
+                                            <p>
+                                                We are dedicated to providing the highest level of guest service and hospitality for our hotel guests, and a commitment to quality in every aspect of our jobs, creating even more opportunities for our employees.
+                                                If you are looking for an opportunity to prove yourself, and your abilities, and you enjoy working with others, come join the Tumi Staffing hospitality team!</p>
                                         </div>
                                     </div>
                                 </div>
