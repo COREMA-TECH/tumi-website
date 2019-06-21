@@ -7,8 +7,8 @@ import op_supervisor_dulce from '../images/Operations-Supervisor_Dulce-Falfan-12
 import join_our_team from '../images/A005_C055_1011I9-640x320.jpg';
 import corporate_hq from '../images/Corporate_HQ-640x320.jpg';
 
-import pic_jasmine from '../images/Jasmine-640x550-640x520.jpg';
-import pic_brant from '../images/Brandt-640x550-640x520.jpg';
+import about_claudia_testimonial from '../images/about-claudia-robbins.png';
+import about_stephen_testimonial from '../images/about-stephen-robbins.png';
 import moxy_chicago from '../images/Moxy-Chicago-Exterior-Composite-1600x1200-640x520.jpg';
 import ac_lem from '../images/AC-LeM-1600x1200-640x520.jpg';
 import zombie_taco from '../images/46A5106_2-640x520.jpg';
@@ -22,20 +22,14 @@ const MainContent = _ => {
                 <div className="smoothstate-container">
                     <section className="banner-container show-for-large">
                         <div className="video-background">
-                            <video poster={landing_slide} id="bg-vid" playsinline autoplay muted loop>
+                            {/* <video poster={landing_slide} id="bg-vid" playsinline autoplay muted loop>
                                 <source src="https://player.vimeo.com/external/272654335.sd.mp4?s=da06a84b2e11ef5772dc14248459a2c96a62fcaf&profile_id=165" type="video/mp4" />
-                            </video>
+                            </video> */}
                             <div className="banner-overlay"></div>
                         </div>
                         <div className="banner-content">
                             <h1 className="h2">PASSION WORKS HERE</h1>
-                        </div>
-                        <div className="wl-award-block show-for-large">
-                            <img src={GGWA_LOGO_WHITE} alt="Galup Great Workplace Award 2019"/>
-                            <div className="wl-award-block-btn">
-                                <a href="https://www.whitelodging.com/white-lodging-named-one-of-gallups-great-workplaces-for-second-straight-year">Learn More</a>
-                            </div>
-                        </div>
+                        </div>                        
                         <a className="scroll-indicator show-for-large" href="#main-container">Scroll<span className="icon-arrow-down"></span></a>
                     </section>
                     <main id="main-container" className="homepage-container" role="main" data-waypoint-trigger>
@@ -45,13 +39,7 @@ const MainContent = _ => {
                             </div>
                             <div className="row vertical-center">
                                 <div className="small-12 medium-centered medium-text-center columns">
-                                    <h1 className="h2">Passion Works Here</h1>
-                                    <div className="wl-award-block hide-for-large inverted">
-                                        <img src={GGWA_LOGO_DARK} alt="GGWA Winner 2019 Dark"/>
-                                        <div className="wl-award-block-btn">
-                                            <a href="https://www.whitelodging.com/white-lodging-named-one-of-gallups-great-workplaces-for-second-straight-year" rel="noopener noreferrer" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
+                                    <h1 className="h2">Passion Works Here</h1>                                    
                                 </div>
                             </div>
                             <div className="control-container">
@@ -130,16 +118,16 @@ const MainContent = _ => {
                             <div className="row no-padding collapse">
                                 <div className="small-12 medium-6 columns">
                                     <a href="https://www.whitelodging.com/success-story/success-story-3/">
-                                        <h3>Jasmine Reed</h3>
+                                        <h3>Claudia Robbins</h3>
                                         <span className="border-btn white">Read her story</span>
-                                        <img width="640" height="520" src={pic_jasmine} className="attachment-rectangle size-rectangle" alt="Human Resources Manager Jasmine Reed stands in the hotel lobby of Louisville Marriott Downtown, with plush armchairs and lantern lights in the background." />	<img className="duotone" src={pic_jasmine} width="640" height="520" aria-hidden />
+                                        <img width="640" height="520" src={about_claudia_testimonial} className="attachment-rectangle size-rectangle" alt="Claudia Robbins." />	<img className="duotone" src={about_claudia_testimonial} width="640" height="520" aria-hidden />
                                     </a>
                                 </div>
                                 <div className="small-12 medium-6 columns">
                                     <a href="https://www.whitelodging.com/success-story/success-story/">
-                                        <h3>Brandt Tiffany</h3>
+                                        <h3>Stephen Robbins</h3>
                                         <span className="border-btn white">Read his story</span>
-                                        <img width="640" height="520" src={pic_brant} className="attachment-rectangle size-rectangle" alt="Brandt Tiffany, General Manager at Aloft Louisville Downtown, smiles for the camera in the hotel’s restaurant." /><img className="duotone" src={pic_brant} width="640" height="520" aria-hidden />
+                                        <img width="640" height="520" src={about_stephen_testimonial} className="attachment-rectangle size-rectangle" alt="Stephen Robbins." /><img className="duotone" src={about_stephen_testimonial} width="640" height="520" aria-hidden />
                                     </a>
                                 </div>
                             </div>
