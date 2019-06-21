@@ -91,8 +91,8 @@ const Footer = _ => {
                 </footer>
             </div>
             <Helmet>
-                <script src={'app-original.js'} />
-                <script src={'app.js'} />
+                <script src={'js/app-original.js'} />
+                <script src={'js/app.js'} />
             </Helmet>
         </>
     );
