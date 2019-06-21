@@ -43,6 +43,9 @@ export default function HTML(props) {
         <link rel="alternate" type="application/json+oembed" href="https://www.whitelodging.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.whitelodging.com%2F" />
         <link rel="alternate" type="text/xml+oembed" href="https://www.whitelodging.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.whitelodging.com%2F&#038;format=xml" />
         <script type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js?ver=2.2.4'></script>
+
+        <script src="https://kit.fontawesome.com/87131fda1b.js"></script>
+
         {props.headComponents}
       </head>
       <body id="site-body" className="home page-template-default page page-id-2" {...props.bodyAttributes}>
