@@ -21,16 +21,13 @@ const MainContent = _ => {
             <div id="smoothstate-wrapper">
                 <div className="smoothstate-container">
                     <section className="banner-container show-for-large">
-                        <div className="video-background">
-                            {/* <video poster={landing_slide} id="bg-vid" playsinline autoplay muted loop>
-                                <source src="https://player.vimeo.com/external/272654335.sd.mp4?s=da06a84b2e11ef5772dc14248459a2c96a62fcaf&profile_id=165" type="video/mp4" />
-                            </video> */}
+                        <div className="video-background">                            
                             <div className="banner-overlay"></div>
                         </div>
                         <div className="banner-content">
                             <h1 className="h2">PASSION WORKS HERE</h1>
                         </div>                        
-                        <a className="scroll-indicator show-for-large" href="#main-container">Scroll<span className="icon-arrow-down"></span></a>
+                        <a className="scroll-indicator show-for-large" href="#main-container">Scroll<span style={{display: 'block', textAlign: 'center', padding: '8px'}} className=""><i class="fas fa-arrow-down"></i></span></a>
                     </section>
                     <main id="main-container" className="homepage-container" role="main" data-waypoint-trigger>
                         <section className="section-container mobile-intro-section">

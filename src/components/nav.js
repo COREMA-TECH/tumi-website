@@ -1,5 +1,6 @@
 import React from "react"
 import GGWA_LOGO_WHITE from '../images/GGWA_WINNER_Logo_2019_White.png';
+import TUMI_LOGO from '../images/tumi-logo.png';
 
 const NavBlock = _ => {
     return (
@@ -7,21 +8,14 @@ const NavBlock = _ => {
             <nav id="site-menu" class="top-bar">
                 <div class="row clearfix collapse">
                     <div class="small-6 columns">
-                        <a id="site-logo" href="https://www.whitelodging.com">
-                            <svg class="logo-mark" role="img" title="White Lodging Logo Mark" viewBox="0 0 31.39 27.95">
-                                <use href="#logo-mark"/>
-                            </svg>
-                            <span class="logo-text-wrapper">
-                                <svg class="logo-text" role="img" title="White Lodging Logo Type" viewBox="0 0 230 18">
-                                    <use href="#logo-text"/>
-                                </svg>
-                            </span>
+                        <a id="site-logo" className='Tumi-logo' href="https://www.whitelodging.com">
+                            <img src={TUMI_LOGO} alt="Tumi Staffing, Inc."/>
                         </a>
                     </div>
                     <div class="small-6 columns text-right">
-                        <div class="cta-wrapper apply-now-wrapper">
+                        {/* <div class="cta-wrapper apply-now-wrapper">
                             <a class="border-btn" href="https://css-whitelodging-prd.inforcloudsuite.com/hcm/CandidateSelfService/controller.servlet?dataarea=hcm&context.session.key.JobBoard=EXTERNAL&context.session.key.HROrganization=75" target="_blank">Apply Now</a>
-                        </div>
+                        </div> */}
                         <a id="menu-toggle" data-toggle="site-body">
                             <span class="menu-inner"></span>
                             <p class="menu-title">Menu</p>
@@ -29,13 +23,7 @@ const NavBlock = _ => {
                     </div>
                 </div>
             <div class="expanded-content">          
-                <div class="navigation-container row large-collapse clearfix">
-                        <div class="wl-award-block show-for-large">
-                            <img src={GGWA_LOGO_WHITE} alt=""/>
-                            <div class="wl-award-block-btn">
-                                <a href="https://www.whitelodging.com/white-lodging-named-one-of-gallups-great-workplaces-for-second-straight-year" target="_blank">Learn More</a>
-                            </div>
-                        </div>
+                <div class="navigation-container row large-collapse clearfix">                        
                         <div class="small-12 large-9 columns">
                             <div class="row large-collapse">
                                 <div class="small-12 large-4 columns">
@@ -90,45 +78,19 @@ const NavBlock = _ => {
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </nav>
-                                    <div class="wl-award-block hide-for-large">
-                                        <img src={GGWA_LOGO_WHITE} alt=""/>
-                                        <div class="wl-award-block-btn">
-                                            <a href="https://www.whitelodging.com/white-lodging-named-one-of-gallups-great-workplaces-for-second-straight-year" target="_blank">Learn More</a>
-                                        </div>
-                                    </div>
+                                    </nav>                                    
                                 </div>
                             </div>
                         </div>
                         <div class="show-for-large large-3 columns">
-                            <div class="row collapse">
-                                <div class="column">
-                                    <h4>What To Watch</h4>
-                                    <div class="pretty-embed" data-pe-videoid="YxrYGofYwhU" data-pe-fitvids="true"></div>
-                                </div>
-                            </div>
-                            <div class="row collapse">
-                                <div class="column">
-                                    <h4>Latest News</h4>
-                                    <div class="news-release">
-                                        <p><a href="https://www.whitelodging.com/white-lodging-announces-general-manager-for-new-austin-marriott-downtown/"><time datetime="2019-05-30">05.30.2019</time></a></p>
-                                        <p>White Lodging is excited to introduce David Meisner as the general manager for the Austin Marriott Downtown, which is slated to open its doors in summer 2020. David is currently&hellip;</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tweet row collapse">
-                                <div class="column">
-                                    <h4>From Twitter</h4>
-                                    <p>Opening this fall! Celebrate the history of Louisville’s Whiskey Row with Hotel Distil’s Repeal and Bitters End. https://t.co/jqhrgLUfHz <a href="http://twitter.com/whitelodging/status/1136636015014273024" target="_blank">https://t.co/deWHW0plSb</a> <time datetime="2019-06-06">- June 06, 2019 02:08PM</time></p>
-                                </div>
-                            </div>
+                            &nbsp;
                         </div>
                     </div>
                     <ul class="social">
-                        <li><a class="icon-twitter" href="https://twitter.com/whitelodging"><span>twitter</span></a></li>
-                        <li><a class="icon-instagram-filled" href="https://instagram.com/whitelodging"><span>instagram-filled</span></a></li>
-                        <li><a class="icon-linkedin" href="http://www.linkedin.com/company/white-lodging-services"><span>linkedin</span></a></li>
-                        <li><a class="icon-facebook" href="https://www.facebook.com/whitelodgingservices"><span>facebook</span></a></li>
+                        <li><a class="Social-icon twitter" href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="Social-icon instagram" href="https://instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="Social-icon linkedin" href="http://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a class="Social-icon facebook" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
                     </ul>
                 </div>
             </nav>
