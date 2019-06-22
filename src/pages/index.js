@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <Helmet 
       bodyAttributes={{
-        class: 'home page-template-default page page-id-2'
+        class: 'home page-template-default page page-id-2 Tumi'
       }}
     />
 

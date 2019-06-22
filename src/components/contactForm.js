@@ -1,15 +1,14 @@
 import React, { Fragment } from 'react';
 import Helmet from 'react-helmet';
 
-const PostPage = props => {
+const ContactForm = props => {
     return (
-        <Fragment>
+        <>
             <Helmet 
                 bodyAttributes={{
-                    class: 'success-story-template-default single single-success-story postid-418 Tumi'
+                    class: 'page-template-default page page-id-110'
                 }}
             />
-
             <div class="nav-bg">
                 <div class="row rule-lines">
                     <span></span>
@@ -92,39 +91,161 @@ const PostPage = props => {
                     </filter>
                 </svg>
             </div>
-            <main id="main-container" role="main">
-                <section class="MainPost">
-                    <div class="banner-container">                        
-                        <div class="section-bg fixed">
-                            <div class="section-overlay"></div>
-                            <img width="1600" height="1200" src={props.banner} class="image-cover object-fit" alt="Human Resources Manager Jasmine Reed stands in the hotel lobby of Louisville Marriott Downtown, with plush armchairs and lantern lights in the background." />				
+            <main id="main-container" role="main" class="light-bg">
+                <div class="banner-container page-bg half-on-small">
+                    <div class="section-bg fixed">
+                        <div class="section-overlay"></div>
+                        <img width="1600" height="1200" src="https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04.jpg" class="image-cover object-fit" alt="One of our hospitality development company&#039;s employees stands behind the JW Marriott Indianapolis&#039;s front desk." srcset="https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04.jpg 1600w, https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04-120x90.jpg 120w, https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04-768x576.jpg 768w" sizes="(max-width: 1600px) 100vw, 1600px" />			
+                    </div>
+                    <div class="banner-content hide-for-large">
+                        <h1 class="h2">Connections</h1>
+                    </div>
+                </div>
+                <section class="contact-container">
+                    <div class="contact-element" data-waypoint-trigger>
+                        <div class="container white-bg large-padded">
+                            <div class="row collapse show-for-large">
+                                <div class="large-6 columns">
+                                    <h1 class="h3">Connections</h1>
+                                </div>
+                                {/* <div class="large-6 columns text-right">
+                                    <a href="https://goo.gl/maps/CxhtYW7MKDp" class="border-btn">Driving Directions</a>
+                                </div> */}
+                            </div>
+                            <br class="show-for-large"/>
+                            <div class="content">
+                                <p>We would love to hear from you, Tell us about your hotel, your business or your project and how we might be of assistance!</p>
+                            </div>
+                            <br class="show-for-large"/>
+                            {/* <div class="two-column-text">
+                                <p>White Lodging Services Corp.<br/>
+                                    701 E 83rd Avenue<br/>
+                                    Merrillville, Indiana 46410<br/>
+                                    <a href="tel:(219) 472-2900">(219) 472-2900</a>
+                                </p>
+                            </div>
+                            <p class="hide-for-large"><a href="https://goo.gl/maps/CxhtYW7MKDp" class="border-btn">Driving Directions</a></p> */}
                         </div>
                     </div>
-                    <div class="inner-section no-padding" data-waypoint-trigger>
-                        <div class="row collapse">
-                            <div class="large-6 columns MainPost-content left">
-                                <div class="container white-bg large-padded">
-                                    <div class="above-the-fold">
-                                        <h1>{props.pageTitle}</h1>
-                                        <h2 class="text-uppercase small-h2">{props.pageSubtitle}</h2>                                        
+                    <div class="contact-element">
+                        <div class="container large-padded">
+                            <div role="form" class="wpcf7" id="wpcf7-f359-o1" lang="en-CA" dir="ltr">
+                                <div class="screen-reader-response"></div>
+                                <form action="/contact/#wpcf7-f359-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                    <div style={{display: 'none'}}>
+                                        <input type="hidden" name="_wpcf7" value="359" />
+                                        <input type="hidden" name="_wpcf7_version" value="4.7" />
+                                        <input type="hidden" name="_wpcf7_locale" value="en_CA" />
+                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f359-o1" />
+                                        <input type="hidden" name="_wpnonce" value="4a5acb33e1" />
                                     </div>
-                                    {props.renderLeftBlock()}                                    
-                                </div>                                
-                            </div>
-                            <div class="large-6 columns MainPost-content right">
-                                <div class="image-block show-for-large">
-                                    <img src={props.contentPic} alt=""/>
-                                </div>                                
-                                <div class="image-block hide-for-large">
-                                    <img src={props.contentPic} alt=""/>
-                                </div>
+                                    <div class="row">
+                                        <div class="small-6 columns">
+                                            <label> First Name <span class="required">*</span><br />
+                                            <span class="wpcf7-form-control-wrap first-name"><input type="text" name="first-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="John" /></span> </label>
+                                        </div>
+                                        <div class="small-6 columns">
+                                            <label> Last Name <span class="required">*</span><br />
+                                            <span class="wpcf7-form-control-wrap last-name"><input type="text" name="last-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Smith" /></span> </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="small-12 columns">
+                                            <label> Email Address <span class="required">*</span><br />
+                                            <span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Address@example.com" /></span> </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="small-12 columns">
+                                            <label> Phone<br />
+                                            <span class="wpcf7-form-control-wrap zip"><input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Type your Phone number" /></span> </label>
+                                        </div>
+                                    </div>                                                                       
+                                    <hr class="thin"/>
+                                    <div class="row">
+                                        <div class="small-12 columns">
+                                            <label> Got something to say?<br />
+                                            <span class="wpcf7-form-control-wrap message"><textarea name="message" cols="10" rows="4" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Add a message"></textarea></span> </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="small-12 columns">
+                                            <div class="wpcf7-form-control-wrap">
+                                                <div data-sitekey="6LelNEMUAAAAALWxgHo4hAKyfYDl4NAbL9qAR4Cs" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha"></div>
+                                                <noscript>
+                                                    <div style={{width: '302px', height: '422px'}}>
+                                                        <div style={{width: '302px', height: '422px', position: 'relative'}}>
+                                                            <div style={{width: '302px', height: '422px', position: 'absolute'}}>
+                                                                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LelNEMUAAAAALWxgHo4hAKyfYDl4NAbL9qAR4Cs" frameborder="0" scrolling="no" style={{width: '302px', height: '422px', borderStyle: 'none'}}>
+                                                                </iframe>
+                                                            </div>
+                                                            <div style={{width: "300px", height: "60px", borderStyle: "none", bottom: "12px", left: "25px", margin: "0px", padding: "0px", right: "25px", background: "#f9f9f9", border: "1px solid #c1c1c1", borderRadius: "3px"}}>
+                                                                <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style={{width: "250px", height: "40px", border: "1px solid #c1c1c1", margin: "10px 25px", padding: "0px", resize: "none"}}>
+                                                                </textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </noscript>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="small-12 columns">
+                                            <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit border-btn" />
+                                        </div>
+                                    </div>
+                                    <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </section>
-            </main>
-        </Fragment>
-    ) 
+            </main>       
+            <script 
+                dangerouslySetInnerHTML={{
+                    __html: `var recaptchaWidgets = [];
+                    var recaptchaCallback = function() {
+                        var forms = document.getElementsByTagName('form');
+                        var pattern = /(^|\s)g-recaptcha(\s|$)/;
+                    
+                        for (var i = 0; i < forms.length; i++) {
+                            var divs = forms[i].getElementsByTagName('div');
+                    
+                            for (var j = 0; j < divs.length; j++) {
+                                var sitekey = divs[j].getAttribute('data-sitekey');
+                    
+                                if (divs[j].className && divs[j].className.match(pattern) && sitekey) {
+                                    var params = {
+                                        'sitekey': sitekey,
+                                        'theme': divs[j].getAttribute('data-theme'),
+                                        'type': divs[j].getAttribute('data-type'),
+                                        'size': divs[j].getAttribute('data-size'),
+                                        'tabindex': divs[j].getAttribute('data-tabindex')
+                                    };
+                    
+                                    var callback = divs[j].getAttribute('data-callback');
+                    
+                                    if (callback && 'function' == typeof window[callback]) {
+                                        params['callback'] = window[callback];
+                                    }
+                    
+                                    var expired_callback = divs[j].getAttribute('data-expired-callback');
+                    
+                                    if (expired_callback && 'function' == typeof window[expired_callback]) {
+                                        params['expired-callback'] = window[expired_callback];
+                                    }
+                    
+                                    var widget_id = grecaptcha.render(divs[j], params);
+                                    recaptchaWidgets.push(widget_id);
+                                    break;
+                                }
+                            }
+                        }
+                    }`
+                }}
+            />           
+        </>
+    )
 }
 
-export default PostPage;
+export default ContactForm;

@@ -4,11 +4,9 @@ import op_supervisor_dulce from '../images/Operations-Supervisor_Dulce-Falfan-12
 
 import about_claudia_testimonial from '../images/about-claudia-robbins.png';
 import about_stephen_testimonial from '../images/about-stephen-robbins.png';
-import moxy_chicago from '../images/Moxy-Chicago-Exterior-Composite-1600x1200-640x520.jpg';
-import ac_lem from '../images/AC-LeM-1600x1200-640x520.jpg';
-import zombie_taco from '../images/46A5106_2-640x520.jpg';
-import conners_pancakes from '../images/Conners_Pancakes-640x520.jpg';
 import austin_skyline from '../images/austin-skyline.jpg';
+
+import {Link} from 'gatsby';
 
 const MainContent = _ => {
     return (
@@ -75,9 +73,9 @@ const MainContent = _ => {
                         <section className="section-container book-ends white-bg">
                             <div className="row no-padding collapse">
                                 <div className="small-12 columns">
-                                    <a href="#">
+                                    <a href="http://orion-dev-web.us-east-2.elasticbeanstalk.com/employment-application"  rel="noopener noreferrer" target="_blank">
                                     <span className="border-btn white">Join Our Team</span>
-                                    <img src={austin_skyline} className="attachment-640x320 size-640x320" alt="" /><img className="duotone" src={austin_skyline} aria-hidden />
+                                    <img src={austin_skyline} alt="" className="attachment-640x320 size-640x320" alt="" /><img className="duotone" src={austin_skyline} aria-hidden />
                                     </a>                               
                                 </div>
                             </div>
@@ -105,29 +103,29 @@ const MainContent = _ => {
                         <section className="section-container block-links white-bg">
                             <div className="row no-padding collapse">
                                 <div className="small-12 medium-6 columns">
-                                    <a href="https://www.whitelodging.com/success-story/success-story-3/">
+                                    <Link to="/claudia-robbins">                                    
                                         <h3>Claudia Robbins</h3>
                                         <span className="border-btn white">Read her story</span>
                                         <img width="640" height="520" src={about_claudia_testimonial} className="attachment-rectangle size-rectangle" alt="Claudia Robbins." />	<img className="duotone" src={about_claudia_testimonial} width="640" height="520" aria-hidden />
-                                    </a>
+                                    </Link>                                    
                                 </div>
                                 <div className="small-12 medium-6 columns">
-                                    <a href="https://www.whitelodging.com/success-story/success-story/">
+                                    <Link to='/stephen-robbins'>
                                         <h3>Stephen Robbins</h3>
                                         <span className="border-btn white">Read his story</span>
-                                        <img width="640" height="520" src={about_stephen_testimonial} className="attachment-rectangle size-rectangle" alt="Stephen Robbins." /><img className="duotone" src={about_stephen_testimonial} width="640" height="520" aria-hidden />
-                                    </a>
+                                        <img width="640" height="520" src={about_stephen_testimonial} className="attachment-rectangle size-rectangle" alt="Stephen Robbins." /><img className="duotone" src={about_stephen_testimonial} width="640" height="520" aria-hidden />                                    
+                                    </Link>                                    
                                 </div>
                             </div>
                         </section>
-                        <section className="section-container blockquote-section">
+                        <section className="section-container blockquote-section Tumi-backishBg">
                             <div className="section-bg">
                             </div>
                             <div className="row">
                                 <div className="small-12 medium-10 medium-centered column">
                                     <blockquote>
-                                        <p>&#8220;Our value comes from our people. Our people make us who we are. Every goal we have at white lodging is achieved through the passion, commitment, and talent of our associates.&#8221;</p>
-                                        <cite>Ken Barrett, President & CEO</cite>
+                                        <p>&#8220;I saw the angel on the marble and carved until I set him free&#8221;</p>
+                                        <cite>Michaelangelo</cite>
                                     </blockquote>
                                 </div>
                             </div>
@@ -153,7 +151,7 @@ const MainContent = _ => {
                                 </div>
                             </div>
                         </section>
-                        <section className="section-container block-links white-bg">
+                        {/* <section className="section-container block-links white-bg">
                             <div className="row no-padding collapse">
                                 <div className="small-12 medium-6 columns">
                                     <a href="https://www.whitelodging.com/case-studies/moxy-hotel-chicago/">
@@ -233,19 +231,10 @@ const MainContent = _ => {
                                     </blockquote>
                                 </div>
                             </div>
-                        </section>
+                        </section> */}
                     </main>
                 </div>
-            </div>
-            <div className="transition-slide"></div>
-            <div className="page-cta-wrapper">
-                <a className="page-cta" href="https://css-whitelodging-prd.inforcloudsuite.com/hcm/CandidateSelfService/controller.servlet?dataarea=hcm&context.session.key.JobBoard=EXTERNAL&context.session.key.HROrganization=75" target="_blank">Apply Now</a>
-                <a className="top-link" href="#top">
-                    <svg role="img" title="Arrow Up" viewBox="0 0 100 100">
-                        <use href="#arrow-up-small" />
-                    </svg>
-                </a>
-            </div>
+            </div>            
         </>
     )
 };
