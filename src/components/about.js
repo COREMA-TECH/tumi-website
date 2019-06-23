@@ -1,57 +1,14 @@
-import React from "react"
-import TUMI_LOGO from '../images/tumi-logo.png';
-import {Link} from 'gatsby';
+import React, {Fragment} from 'react';
+import {Helmet} from 'react-helmet';
 
-const NavBlock = _ => {
+const About = _ => {    
     return (
-        <>  
-            <nav id="site-menu" class="top-bar">
-                <div class="row clearfix collapse">
-                    <div class="small-6 columns">
-                        <Link id="site-logo" className='Tumi-logo' to="/">
-                            <img src={TUMI_LOGO} alt="Tumi Staffing, Inc."/>
-                        </Link>
-                    </div>
-                    <div class="small-6 columns text-right">
-                        <div class="cta-wrapper apply-now-wrapper">
-                            <a class="border-btn" href="http://orion-dev-web.us-east-2.elasticbeanstalk.com/employment-application" target="_blank">Apply Now</a>
-                        </div>
-                        <a id="menu-toggle" data-toggle="site-body">
-                            <span class="menu-inner"></span>
-                            <p class="menu-title">Menu</p>
-                        </a>
-                    </div>
-                </div>
-            <div class="expanded-content">          
-                <div class="navigation-container row large-collapse clearfix">                        
-                        <div class="small-12 large-9 columns">
-                            <div class="row large-collapse">
-                                <div class="small-12 large-4 columns">
-                                    <nav id="primary">
-                                        <ul class="menu vertical">
-                                            <li class="menu-item-page-cta"><a href="http://orion-dev-web.us-east-2.elasticbeanstalk.com/employment-application"  target="_blank">Apply Now</a></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/">Home</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/about">About Us</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/services">Services</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/compliance">Compliance</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/employment">Employment</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/connections">Connections</Link></li>
-                                        </ul>
-                                    </nav>                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="show-for-large large-3 columns">
-                            &nbsp;
-                        </div>
-                    </div>
-                    <ul class="social">
-                        <li><a class="Social-icon twitter" href="https://twitter.com/StaffingTumi"><i class="fab fa-twitter"></i></a></li>
-                        <li><a class="Social-icon linkedin" href="https://www.linkedin.com/company/tumi-staffing/about/"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a class="Social-icon facebook" href="https://www.facebook.com/TUMISTAFFING/?ref=page_internal"><i class="fab fa-facebook-f"></i></a></li>
-                    </ul>
-                </div>
-            </nav>
+        <Fragment>
+            <Helmet 
+                bodyAttributes={{
+                    class: 'page-template-default page page-id-110 Tumi'
+                }}
+            />
             <div class="nav-bg">
                 <div class="row rule-lines">
                     <span></span>
@@ -134,8 +91,92 @@ const NavBlock = _ => {
                     </filter>
                 </svg>
             </div>
-        </>
-    );
+            <main id="main-container" role="main" class="light-bg">
+                <div class="banner-container page-bg half-on-small">
+                    <div class="section-bg fixed">
+                        <div class="section-overlay"></div>
+                        <img width="1600" height="1200" src="https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04.jpg" class="image-cover object-fit" alt="One of our hospitality development company&#039;s employees stands behind the JW Marriott Indianapolis&#039;s front desk." srcset="https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04.jpg 1600w, https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04-120x90.jpg 120w, https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04-768x576.jpg 768w" sizes="(max-width: 1600px) 100vw, 1600px" />			
+                    </div>
+                    <div class="banner-content hide-for-large">
+                        <h1 class="h2">Kind Words</h1>
+                    </div>
+                </div>
+                <section class="contact-container">
+                    <div class="contact-element" data-waypoint-trigger>
+                        <div class="container white-bg large-padded">
+                            <div class="row collapse show-for-large">
+                                <div class="large-6 columns">
+                                    <h1 class="h3">Kind Words</h1>
+                                </div>
+                            </div>
+                            <br class="show-for-large"/>
+                            <div class="content">
+                                <p>As one of the leading hospitality recruitment companies we provide our clients with a professional, tailor made and cost effective recruitment solution.</p>
+                            </div>
+                            <br class="show-for-large"/>                            
+                        </div>
+                    </div>
+                    <div class="contact-element">
+                        <div class="container large-padded">
+                            <div role="form" class="wpcf7" id="wpcf7-f359-o1" lang="en-CA" dir="ltr">
+                                <div class="screen-reader-response"></div>
+                                <h2 class='Tumi-white'>WHAT OUR CUSTOMERS SAY ABOUT US</h2>
+                                <blockquote class='Tumi-white'>The candidates provided by Tumi have always exceeded my expectations.</blockquote>
+                                <blockquote class='Tumi-white'>They listen carefully and take on board the real needs of the role in question.</blockquote>
+                                <blockquote class='Tumi-white'>I always receive a very quick response on short notice requirements which means I have cover at all times.</blockquote>
+                                <blockquote class='Tumi-white'>Tumi have really been 'going the extra mile for me' which I have greatly appreciated. </blockquote>
+                                <blockquote class='Tumi-white'>Tumi was able to provide us with high quality staff, quickly, efficiently and at highly competitive prices.</blockquote>
+                                <blockquote class='Tumi-white'>They are always getting back to me straight away with anything I need and they have exceptional service.</blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>       
+            <script 
+                dangerouslySetInnerHTML={{
+                    __html: `var recaptchaWidgets = [];
+                    var recaptchaCallback = function() {
+                        var forms = document.getElementsByTagName('form');
+                        var pattern = /(^|\s)g-recaptcha(\s|$)/;
+                    
+                        for (var i = 0; i < forms.length; i++) {
+                            var divs = forms[i].getElementsByTagName('div');
+                    
+                            for (var j = 0; j < divs.length; j++) {
+                                var sitekey = divs[j].getAttribute('data-sitekey');
+                    
+                                if (divs[j].className && divs[j].className.match(pattern) && sitekey) {
+                                    var params = {
+                                        'sitekey': sitekey,
+                                        'theme': divs[j].getAttribute('data-theme'),
+                                        'type': divs[j].getAttribute('data-type'),
+                                        'size': divs[j].getAttribute('data-size'),
+                                        'tabindex': divs[j].getAttribute('data-tabindex')
+                                    };
+                    
+                                    var callback = divs[j].getAttribute('data-callback');
+                    
+                                    if (callback && 'function' == typeof window[callback]) {
+                                        params['callback'] = window[callback];
+                                    }
+                    
+                                    var expired_callback = divs[j].getAttribute('data-expired-callback');
+                    
+                                    if (expired_callback && 'function' == typeof window[expired_callback]) {
+                                        params['expired-callback'] = window[expired_callback];
+                                    }
+                    
+                                    var widget_id = grecaptcha.render(divs[j], params);
+                                    recaptchaWidgets.push(widget_id);
+                                    break;
+                                }
+                            }
+                        }
+                    }`
+                }}
+            />
+        </Fragment>
+    )
 }
 
-export default NavBlock;
+export default About;
