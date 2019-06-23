@@ -35,7 +35,7 @@ const NavBlock = _ => {
                                             <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/services">Services</Link></li>
                                             <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/compliance">Compliance</Link></li>
                                             <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/employment">Employment</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/connections">Connections</Link></li>
+                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/contact-us">Contact Us</Link></li>
                                         </ul>
                                     </nav>                                    
                                 </div>

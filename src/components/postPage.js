@@ -106,7 +106,7 @@ const PostPage = props => {
                                 <div class="container white-bg large-padded">
                                     <div class="above-the-fold">
                                         <h1>{props.pageTitle}</h1>
-                                        <h2 class="text-uppercase small-h2">{props.pageSubtitle}</h2>                                        
+                                        <h2 class="text-uppercase small-h2 Tumi-subtitle">{props.pageSubtitle}</h2>                                        
                                     </div>
                                     {props.renderLeftBlock()}                                    
                                 </div>                                

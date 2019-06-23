@@ -18,7 +18,7 @@ const Footer = _ => {
                             <div className="row">
                                 <div className="small-8 medium-6 large-4 columns text-uppercase">
                                     <ul className="menu simple">
-                                        <li><Link to="/connections">Contact Us</Link></li>
+                                        <li><Link to="/contact-us">Contact Us</Link></li>
                                     </ul>
                                 </div>
                                 <div className="small-4 medium-6 large-8 columns float-right">

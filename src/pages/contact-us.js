@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const Connections = _ => {
     return (  
         <Layout>
-            <SEO title="Employment" />
+            <SEO title="Contact Us" />
             <NavBlock />
             <Contact />
         </Layout>
