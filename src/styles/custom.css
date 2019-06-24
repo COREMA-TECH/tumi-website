@@ -16,10 +16,24 @@
     margin-top: 2rem;
 }
 
+.Tumi .Tumi-subtitle{
+    color: #fff;
+}
+
+@media(min-width: 1024px){
+    .Tumi .Tumi-subtitle{
+        color: #000;
+    }
+}
+
 .Tumi .Tumi-inlineLink{
     display: initial;
 }
 
 .Tumi .Tumi-backishBg{
     background-color: rgba(0, 0, 0, 0.65);
+}
+
+.Tumi .Tumi-white{
+    color: #ffffff;
 }

@@ -1,17 +1,17 @@
 import React from "react"
-import Contact from '../components/contactForm';
+import About from '../components/about';
 import NavBlock from '../components/nav';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Connections = _ => {
+const AboutUs = _ => {
     return (  
         <Layout>
             <SEO title="Employment" />
             <NavBlock />
-            <Contact />
+            <About />
         </Layout>
       )
 }
 
-export default Connections;
+export default AboutUs;

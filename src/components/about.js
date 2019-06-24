@@ -1,15 +1,14 @@
-import React, { Fragment } from 'react';
-import Helmet from 'react-helmet';
+import React, {Fragment} from 'react';
+import {Helmet} from 'react-helmet';
 
-const PostPage = props => {
+const About = _ => {    
     return (
         <Fragment>
             <Helmet 
                 bodyAttributes={{
-                    class: 'success-story-template-default single single-success-story postid-418 Tumi'
+                    class: 'page-template-default page page-id-110 Tumi'
                 }}
             />
-
             <div class="nav-bg">
                 <div class="row rule-lines">
                     <span></span>
@@ -92,39 +91,92 @@ const PostPage = props => {
                     </filter>
                 </svg>
             </div>
-            <main id="main-container" role="main">
-                <section class="MainPost">
-                    <div class="banner-container">                        
-                        <div class="section-bg fixed">
-                            <div class="section-overlay"></div>
-                            <img width="1600" height="1200" src={props.banner} class="image-cover object-fit" alt="Human Resources Manager Jasmine Reed stands in the hotel lobby of Louisville Marriott Downtown, with plush armchairs and lantern lights in the background." />				
+            <main id="main-container" role="main" class="light-bg">
+                <div class="banner-container page-bg half-on-small">
+                    <div class="section-bg fixed">
+                        <div class="section-overlay"></div>
+                        <img width="1600" height="1200" src="https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04.jpg" class="image-cover object-fit" alt="One of our hospitality development company&#039;s employees stands behind the JW Marriott Indianapolis&#039;s front desk." srcset="https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04.jpg 1600w, https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04-120x90.jpg 120w, https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04-768x576.jpg 768w" sizes="(max-width: 1600px) 100vw, 1600px" />			
+                    </div>
+                    <div class="banner-content hide-for-large">
+                        <h1 class="h2">Kind Words</h1>
+                    </div>
+                </div>
+                <section class="contact-container">
+                    <div class="contact-element" data-waypoint-trigger>
+                        <div class="container white-bg large-padded">
+                            <div class="row collapse show-for-large">
+                                <div class="large-6 columns">
+                                    <h1 class="h3">Kind Words</h1>
+                                </div>
+                            </div>
+                            <br class="show-for-large"/>
+                            <div class="content">
+                                <p>As one of the leading hospitality recruitment companies we provide our clients with a professional, tailor made and cost effective recruitment solution.</p>
+                            </div>
+                            <br class="show-for-large"/>                            
                         </div>
                     </div>
-                    <div class="inner-section no-padding" data-waypoint-trigger>
-                        <div class="row collapse">
-                            <div class="large-6 columns MainPost-content left">
-                                <div class="container white-bg large-padded">
-                                    <div class="above-the-fold">
-                                        <h1>{props.pageTitle}</h1>
-                                        <h2 class="text-uppercase small-h2 Tumi-subtitle">{props.pageSubtitle}</h2>                                        
-                                    </div>
-                                    {props.renderLeftBlock()}                                    
-                                </div>                                
-                            </div>
-                            <div class="large-6 columns MainPost-content right">
-                                <div class="image-block show-for-large">
-                                    <img src={props.contentPic} alt=""/>
-                                </div>                                
-                                <div class="image-block hide-for-large">
-                                    <img src={props.contentPic} alt=""/>
-                                </div>
+                    <div class="contact-element">
+                        <div class="container large-padded">
+                            <div role="form" class="wpcf7" id="wpcf7-f359-o1" lang="en-CA" dir="ltr">
+                                <div class="screen-reader-response"></div>
+                                <h2 class='Tumi-white'>WHAT OUR CUSTOMERS SAY ABOUT US</h2>
+                                <blockquote class='Tumi-white'>The candidates provided by Tumi have always exceeded my expectations.</blockquote>
+                                <blockquote class='Tumi-white'>They listen carefully and take on board the real needs of the role in question.</blockquote>
+                                <blockquote class='Tumi-white'>I always receive a very quick response on short notice requirements which means I have cover at all times.</blockquote>
+                                <blockquote class='Tumi-white'>Tumi have really been 'going the extra mile for me' which I have greatly appreciated. </blockquote>
+                                <blockquote class='Tumi-white'>Tumi was able to provide us with high quality staff, quickly, efficiently and at highly competitive prices.</blockquote>
+                                <blockquote class='Tumi-white'>They are always getting back to me straight away with anything I need and they have exceptional service.</blockquote>
                             </div>
                         </div>
                     </div>
                 </section>
-            </main>
+            </main>       
+            <script 
+                dangerouslySetInnerHTML={{
+                    __html: `var recaptchaWidgets = [];
+                    var recaptchaCallback = function() {
+                        var forms = document.getElementsByTagName('form');
+                        var pattern = /(^|\s)g-recaptcha(\s|$)/;
+                    
+                        for (var i = 0; i < forms.length; i++) {
+                            var divs = forms[i].getElementsByTagName('div');
+                    
+                            for (var j = 0; j < divs.length; j++) {
+                                var sitekey = divs[j].getAttribute('data-sitekey');
+                    
+                                if (divs[j].className && divs[j].className.match(pattern) && sitekey) {
+                                    var params = {
+                                        'sitekey': sitekey,
+                                        'theme': divs[j].getAttribute('data-theme'),
+                                        'type': divs[j].getAttribute('data-type'),
+                                        'size': divs[j].getAttribute('data-size'),
+                                        'tabindex': divs[j].getAttribute('data-tabindex')
+                                    };
+                    
+                                    var callback = divs[j].getAttribute('data-callback');
+                    
+                                    if (callback && 'function' == typeof window[callback]) {
+                                        params['callback'] = window[callback];
+                                    }
+                    
+                                    var expired_callback = divs[j].getAttribute('data-expired-callback');
+                    
+                                    if (expired_callback && 'function' == typeof window[expired_callback]) {
+                                        params['expired-callback'] = window[expired_callback];
+                                    }
+                    
+                                    var widget_id = grecaptcha.render(divs[j], params);
+                                    recaptchaWidgets.push(widget_id);
+                                    break;
+                                }
+                            }
+                        }
+                    }`
+                }}
+            />
         </Fragment>
-    ) 
+    )
 }
 
-export default PostPage;
+export default About;

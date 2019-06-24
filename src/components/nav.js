@@ -31,11 +31,11 @@ const NavBlock = _ => {
                                         <ul class="menu vertical">
                                             <li class="menu-item-page-cta"><a href="http://orion-dev-web.us-east-2.elasticbeanstalk.com/employment-application"  target="_blank">Apply Now</a></li>
                                             <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/">Home</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/">About Us</Link></li>
+                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/about">About Us</Link></li>
                                             <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/services">Services</Link></li>
                                             <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/compliance">Compliance</Link></li>
                                             <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/employment">Employment</Link></li>
-                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/connections">Connections</Link></li>
+                                            <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/contact-us">Contact Us</Link></li>
                                         </ul>
                                     </nav>                                    
                                 </div>
