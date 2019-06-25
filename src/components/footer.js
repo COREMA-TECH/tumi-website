@@ -1,6 +1,7 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
 import TUMI_LOGO from '../images/tumi-logo.png';
+import SMBS_LOGO from '../images/smbs-white-logo.png';
 import {Link} from 'gatsby';
 
 const Footer = _ => {
@@ -32,19 +33,29 @@ const Footer = _ => {
                                     </ul>
                                 </div>
                                 <div className="small-8 medium-6 columns two-column-text" data-mh="footer-columns">
-                                    <p>701 E 83rd Avenue<br />
-                                        Merrillville, Indiana 46410
+                                    <p>4150 Freidrich Ln,<br />
+                                        Austin, TX 78744
                                     </p>
-                                    <p>(219) 472-2900</p>
+                                    <p>(512) 772-4090</p>
                                 </div>
                                 <div className="small-12 medium-6 columns">
                                     <div className="row">
                                         <div className="small-10 small-centered medium-6 medium-uncentered columns text-center medium-text-left" data-mh="footer-columns">
-                                            <p><a href="/" target="_blank">&copy;</a> 2019 TUMI Staffing, Inc. All rights reserved</p>
+                                            <p><a href="/" >&copy;</a> 2019 TUMI Staffing, Inc. All rights reserved</p>
                                         </div>                                        
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div className="row Smbs">
+                        <div className="small-12 columns">
+                            <div className="text-center Smbs-copyright">
+                                <p>Powered by Smbs Solutions &copy;</p>
+                            </div>
+                            <a id="smbs-logo" className='Smbs-logo' href="http://smbssolutions.com/" target="_blank" rel="noopener noreferrer">
+                                <img className='Tumi-img-responsive' src={SMBS_LOGO} alt="SMBS"/>
+                            </a>                            
                         </div>
                     </div>
                 </footer>

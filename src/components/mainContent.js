@@ -5,6 +5,7 @@ import op_supervisor_dulce from '../images/Operations-Supervisor_Dulce-Falfan-12
 import about_claudia_testimonial from '../images/about-claudia-robbins.png';
 import about_stephen_testimonial from '../images/about-stephen-robbins.png';
 import austin_skyline from '../images/austin-skyline.jpg';
+import mobile_bg from '../images/austin-texas-wp.jpg';
 
 import {Link} from 'gatsby';
 
@@ -18,33 +19,20 @@ const MainContent = _ => {
                             <div className="banner-overlay"></div>
                         </div>
                         <div className="banner-content">
-                            <h1 className="h2">PASSION WORKS HERE</h1>
+                            <h1 className="h2 Tumi-uppercase">What you want to do and what you can do... <br/>Is limited only by what you can dream</h1>
                         </div>                        
                         <a className="scroll-indicator show-for-large" href="#main-container">Scroll<span style={{display: 'block', textAlign: 'center', padding: '8px'}} className=""><i class="fas fa-arrow-down"></i></span></a>
                     </section>
                     <main id="main-container" className="homepage-container" role="main" data-waypoint-trigger>
                         <section className="section-container mobile-intro-section">
                             <div className="mobile-section-bg">
-                                <img width="1280" height="945" src={op_supervisor_dulce} className="image-cover object-fit" alt="" />	
+                                <img width="1280" height="945" src={mobile_bg} className="image-cover object-fit" alt="" />	
                             </div>
                             <div className="row vertical-center">
                                 <div className="small-12 medium-centered medium-text-center columns">
-                                    <h1 className="h2">Passion Works Here</h1>                                    
+                                    <h1 className="h2">What you want to do and what you can do... <br/>Is limited only by what you can dream</h1>                                    
                                 </div>
-                            </div>
-                            <div className="control-container">
-                                <div className="page-controls">
-                                    <div className="page-control">
-                                        <a className="prev-page" href="https://www.whitelodging.com/gallery/"><span className="link-label">Gallery</span></a>
-                                    </div>
-                                    <div className="page-label">
-                                        <span className="current-page">Home</span>
-                                    </div>
-                                    <div className="page-control">
-                                        <a className="next-page" href="https://www.whitelodging.com/careers/"><span className="link-label">Careers</span></a>
-                                    </div>
-                                </div>
-                            </div>
+                            </div>                            
                         </section>
                         <section className="section-container text-section white-bg">
                             <div className="row">
@@ -52,7 +40,7 @@ const MainContent = _ => {
                                     <div className="row">
                                         <div className="small-12 medium-10 medium-centered large-12 columns">
                                             <h2 className="h1">WELCOME TO<br />TUMI STAFFING</h2>
-                                            <p className="show-for-large"><a href="https://www.whitelodging.com/story/" className="border-btn">About Us</a></p>
+                                            <p className="show-for-large"><Link className="border-btn" to='/about'>About Us</Link></p>
                                         </div>
                                     </div>
                                 </div>

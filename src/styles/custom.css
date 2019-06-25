@@ -3,6 +3,26 @@
     width: 120px;
 }
 
+.About-title{
+    margin-top: 2.85rem;
+}
+
+.Tumi .Smbs{
+    margin-top: 2rem;
+}
+
+.Tumi .Smbs-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50px;
+    width: 100%;
+}
+
+.Tumi .Tumi-contactInput{
+    border-bottom: 1px solid #525354;
+}
+
 .banner-container .banner-overlay{
     background-image: url('../images/austin-texas-wp.jpg');
 }
@@ -18,12 +38,7 @@
 
 .Tumi .Tumi-subtitle{
     color: #fff;
-}
-
-@media(min-width: 1024px){
-    .Tumi .Tumi-subtitle{
-        color: #000;
-    }
+    font-size: 1rem;
 }
 
 .Tumi .Tumi-inlineLink{
@@ -34,6 +49,41 @@
     background-color: rgba(0, 0, 0, 0.65);
 }
 
-.Tumi .Tumi-white{
+.Tumi .Tumi-aboutText{
     color: #ffffff;
+}
+
+.Tumi .Tumi-img-responsive{
+    display: block;
+    width: 100%;
+}
+
+@media(min-width: 1024px){
+    .Tumi .Tumi-subtitle{
+        color: #000;        
+    }    
+}
+
+@media(max-width: 1023.95px){
+    .top-bar #site-logo.Tumi-logo, .footer-container .Tumi-logo{
+        max-width: 75px; 
+        width: 100%;
+    }
+
+    .Tumi .Tumi-aboutText{
+        color: #000000;
+    }
+}
+
+/* Original style uses this measure for some reason */
+@media screen and (min-width: 64em){
+    .top-bar #site-logo.Tumi-logo{
+        left: 80px;
+    }
+}
+
+@media screen and (min-width: 80em){
+    .top-bar #site-logo.Tumi-logo{
+        left: -80px;
+    }
 }
