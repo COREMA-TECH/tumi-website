@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import banner from "../images/compliance-banner.jpg";
-import contentPic from '../images/compliance-contentPic.jpg';
+import contentPic from '../images/compliance-content-2.jpg';
 
 const Compliance = () => {
   

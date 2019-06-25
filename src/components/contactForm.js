@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Helmet from 'react-helmet';
+import form_background from '../images/contact-form-bg.jpg';
 
 class ContactForm extends Component {    
     INITIAL_STATE = {
@@ -29,7 +30,7 @@ class ContactForm extends Component {
             <>
                 <Helmet 
                     bodyAttributes={{
-                        class: 'page-template-default page page-id-110'
+                        class: 'page-template-default page page-id-110 Tumi'
                     }}
                 />
                 <div class="nav-bg">
@@ -118,7 +119,7 @@ class ContactForm extends Component {
                     <div class="banner-container page-bg half-on-small">
                         <div class="section-bg fixed">
                             <div class="section-overlay"></div>
-                            <img width="1600" height="1200" src="https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04.jpg" class="image-cover object-fit" alt="One of our hospitality development company&#039;s employees stands behind the JW Marriott Indianapolis&#039;s front desk." srcset="https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04.jpg 1600w, https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04-120x90.jpg 120w, https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04-768x576.jpg 768w" sizes="(max-width: 1600px) 100vw, 1600px" />			
+                            <img width="1600" height="1200" src={form_background} class="image-cover object-fit" alt="" />			
                         </div>
                         <div class="banner-content hide-for-large">
                             <h1 class="h2">Contact</h1>
@@ -154,30 +155,29 @@ class ContactForm extends Component {
                                         <div class="row">
                                             <div class="small-6 columns">
                                                 <label> First Name <span class="required">*</span><br />
-                                                <span class="wpcf7-form-control-wrap first-name"><input value={this.state.firstName} onChange={this.handleChange} type="text" name="firstName" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="John" /></span> </label>
+                                                <span class="wpcf7-form-control-wrap first-name"><input value={this.state.firstName} onChange={this.handleChange} type="text" name="firstName" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required Tumi-contactInput" aria-required="true" aria-invalid="false" placeholder="First Name" /></span> </label>
                                             </div>
                                             <div class="small-6 columns">
                                                 <label> Last Name <span class="required">*</span><br />
-                                                <span class="wpcf7-form-control-wrap last-name"><input value={this.state.lastName} onChange={this.handleChange} type="text" name="lastName" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Smith" /></span> </label>
+                                                <span class="wpcf7-form-control-wrap last-name"><input value={this.state.lastName} onChange={this.handleChange} type="text" name="lastName" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required Tumi-contactInput" aria-required="true" aria-invalid="false" placeholder="Last Name" /></span> </label>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="small-12 columns">
                                                 <label> Email Address <span class="required">*</span><br />
-                                                <span class="wpcf7-form-control-wrap email"><input value={this.state.email} onChange={this.handleChange} type="email" name="email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Address@example.com" /></span> </label>
+                                                <span class="wpcf7-form-control-wrap email"><input value={this.state.email} onChange={this.handleChange} type="email" name="email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email Tumi-contactInput" aria-required="true" aria-invalid="false" placeholder="Email Address" /></span> </label>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="small-12 columns">
                                                 <label> Phone<br />
-                                                <span class="wpcf7-form-control-wrap zip"><input value={this.state.phone} onChange={this.handleChange} type="text" name="phone" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Type your Phone number" /></span> </label>
+                                                <span class="wpcf7-form-control-wrap zip"><input value={this.state.phone} onChange={this.handleChange} type="text" name="phone" size="40" class="wpcf7-form-control wpcf7-text Tumi-contactInput" aria-invalid="false" placeholder="Phone number" /></span> </label>
                                             </div>
                                         </div>                                                                       
-                                        <hr class="thin"/>
                                         <div class="row">
                                             <div class="small-12 columns">
                                                 <label> Got something to say?<br />
-                                                <span class="wpcf7-form-control-wrap message"><textarea value={this.state.message} onChange={this.handleChange} name="message" cols="10" rows="4" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Add a message"></textarea></span> </label>
+                                                <span class="wpcf7-form-control-wrap message"><textarea value={this.state.message} onChange={this.handleChange} name="message" cols="10" rows="4" class="wpcf7-form-control wpcf7-textarea Tumi-contactInput" aria-invalid="false" placeholder="Add a Message"></textarea></span> </label>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -191,7 +191,7 @@ class ContactForm extends Component {
                             </div>
                         </div>
                     </section>
-                </main>
+                </main> 
             </>
         )
     }

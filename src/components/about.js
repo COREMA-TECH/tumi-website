@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import {Helmet} from 'react-helmet';
+import about_background from '../images/about-us-bg.jpg';
 
 const About = _ => {    
     return (
@@ -95,7 +96,7 @@ const About = _ => {
                 <div class="banner-container page-bg half-on-small">
                     <div class="section-bg fixed">
                         <div class="section-overlay"></div>
-                        <img width="1600" height="1200" src="https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04.jpg" class="image-cover object-fit" alt="One of our hospitality development company&#039;s employees stands behind the JW Marriott Indianapolis&#039;s front desk." srcset="https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04.jpg 1600w, https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04-120x90.jpg 120w, https://www.whitelodging.com/wp-content/uploads/2017/01/JWMarriott-04-768x576.jpg 768w" sizes="(max-width: 1600px) 100vw, 1600px" />			
+                        <img width="1600" height="1200" src={about_background} class="image-cover object-fit" alt="" />			
                     </div>
                     <div class="banner-content hide-for-large">
                         <h1 class="h2">Kind Words</h1>
@@ -120,13 +121,13 @@ const About = _ => {
                         <div class="container large-padded">
                             <div role="form" class="wpcf7" id="wpcf7-f359-o1" lang="en-CA" dir="ltr">
                                 <div class="screen-reader-response"></div>
-                                <h2 class='Tumi-white'>WHAT OUR CUSTOMERS SAY ABOUT US</h2>
-                                <blockquote class='Tumi-white'>The candidates provided by Tumi have always exceeded my expectations.</blockquote>
-                                <blockquote class='Tumi-white'>They listen carefully and take on board the real needs of the role in question.</blockquote>
-                                <blockquote class='Tumi-white'>I always receive a very quick response on short notice requirements which means I have cover at all times.</blockquote>
-                                <blockquote class='Tumi-white'>Tumi have really been 'going the extra mile for me' which I have greatly appreciated. </blockquote>
-                                <blockquote class='Tumi-white'>Tumi was able to provide us with high quality staff, quickly, efficiently and at highly competitive prices.</blockquote>
-                                <blockquote class='Tumi-white'>They are always getting back to me straight away with anything I need and they have exceptional service.</blockquote>
+                                <h2 class='Tumi-aboutText About-title'>WHAT OUR CUSTOMERS SAY ABOUT US</h2>
+                                <blockquote class='Tumi-aboutText'>The candidates provided by Tumi have always exceeded my expectations.</blockquote>
+                                <blockquote class='Tumi-aboutText'>They listen carefully and take on board the real needs of the role in question.</blockquote>
+                                <blockquote class='Tumi-aboutText'>I always receive a very quick response on short notice requirements which means I have cover at all times.</blockquote>
+                                <blockquote class='Tumi-aboutText'>Tumi have really been 'going the extra mile for me' which I have greatly appreciated. </blockquote>
+                                <blockquote class='Tumi-aboutText'>Tumi was able to provide us with high quality staff, quickly, efficiently and at highly competitive prices.</blockquote>
+                                <blockquote class='Tumi-aboutText'>They are always getting back to me straight away with anything I need and they have exceptional service.</blockquote>
                             </div>
                         </div>
                     </div>
