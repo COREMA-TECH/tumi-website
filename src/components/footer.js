@@ -1,6 +1,7 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
-import TUMI_LOGO from '../images/tumi-logo.png';
+// import TUMI_LOGO from '../images/tumi-logo.png';
+import TUMI_LOGO from '../images/tumi-old-logo-white.png';
 import SMBS_LOGO from '../images/smbs-white-logo.png';
 import {Link} from 'gatsby';
 

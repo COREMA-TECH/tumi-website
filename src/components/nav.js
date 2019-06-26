@@ -1,5 +1,6 @@
 import React from "react"
-import TUMI_LOGO from '../images/tumi-logo.png';
+// import TUMI_LOGO from '../images/tumi-logo.png';
+import TUMI_LOGO from '../images/tumi-old-logo-white.png';
 import {Link} from 'gatsby';
 
 const NavBlock = _ => {
@@ -32,6 +33,13 @@ const NavBlock = _ => {
                                             <li class="menu-item-page-cta"><a href="http://orion-dev-web.us-east-2.elasticbeanstalk.com/employment-application"  target="_blank">Apply Now</a></li>
                                             <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/">Home</Link></li>
                                             <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/about">About Us</Link></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                                <a href="#">Stories<span class="expand-toggle"></span></a>
+                                                <ul class="sub-menu">
+                                                    <li><Link to='/claudia-robbins'>Claudia Robbins</Link></li>
+                                                    <li><Link to='/stephen-robbins'>Stephen Robbins</Link></li>                                                    
+                                                </ul>
+                                            </li>			
                                             <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/services">Services</Link></li>
                                             <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/compliance">Compliance</Link></li>
                                             <li class='menu-item menu-item-type-post_type menu-item-object-page'><Link to="/employment">Employment</Link></li>
