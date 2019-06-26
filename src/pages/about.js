@@ -9,7 +9,7 @@ const AboutUs = _ => {
         <Layout>
             <SEO title="Employment" />
             <NavBlock />
-            <About />
+            <About />       
         </Layout>
       )
 }
