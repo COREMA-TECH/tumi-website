@@ -5,6 +5,6 @@
 //     bodyTag.classList.toggle("nav-opened");
 // });
 
-// $(".menu-item-has-children > a").on('click', t => {
+// $(".menu-item-has-children > a").on('click', document, t => {
 //     $(t.target).hasClass('expand-toggle') && (t.preventDefault(), $(this).hasClass("opened") ? $(this).removeClass("opened") : ($(".menu-item-has-children > a").removeClass("opened"), $(this).addClass("opened")));
 // });
