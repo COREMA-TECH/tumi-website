@@ -68,7 +68,7 @@ const MainContent = _ => {
                                 </div>
                             </div>
                         </section>
-                        <section className="section-container text-section white-bg">
+                        {/* <section className="section-container text-section white-bg">
                             <div className="row">
                                 <div className="small-12 large-4 large-offset-1 columns">
                                     <div className="row">
@@ -138,7 +138,7 @@ const MainContent = _ => {
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </section> */}
                         {/* <section className="section-container block-links white-bg">
                             <div className="row no-padding collapse">
                                 <div className="small-12 medium-6 columns">
