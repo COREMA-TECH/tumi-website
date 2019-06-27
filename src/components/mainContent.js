@@ -5,7 +5,7 @@ import op_supervisor_dulce from '../images/Operations-Supervisor_Dulce-Falfan-12
 import about_claudia_testimonial from '../images/about-claudia-robbins.png';
 import about_stephen_testimonial from '../images/about-stephen-robbins.png';
 import austin_skyline from '../images/austin-skyline.jpg';
-import mobile_bg from '../images/austin-texas-wp.jpg';
+import mobile_bg from '../images/housekeeping.jpg';
 
 import {Link} from 'gatsby';
 
