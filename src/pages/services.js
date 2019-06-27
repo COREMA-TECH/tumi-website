@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import banner from "../images/hotel-sign-t.jpg";
-import service from '../images/service-chef.jpg';
+import service from '../images/services-content.jpeg';
 
 const Services = () => {
   
@@ -13,19 +13,61 @@ const Services = () => {
     return(
       <>
         <p>
-          Tumi Staffing is one of the nation′s premier hospitality staffing providers. 
-          Formed by hospitality professionals, we are dedicated to helping your hotel achieve greater customer satisfaction, increased QA scores, boost efficiencies and reduce costs. 
-          With our background in the hospitality industry and our dedication to quality, we are uniquely positioned to help your hotel achieve greater bottom line profits while increasing guest satisfaction.
+          Tumi Staffing allows you to add capacity without the additional employment expenses of advertising, background checks, screenings, interviewing and reference checking. This also reduces your ongoing expenses such as vacation, sick pay, comp time, and insurance, and our prices make our staffing solutions competitive with adding full-time employees to your staff.
         </p>
         <p>
-          Staffing for hotels has very unique requirements including the need for service oriented people, as well as technical skills and a work ethic that makes our employees successful in the hotel environment. 
-          In our interview process, we screen for these characteristics that lead to long term success in the hospitality industry.
+          Tumi Staffing utilizes strict selection criteria for its employees to ensure that we provide the highest quality workers. We stress honesty, work ethic and dependability in our selection process and employ those who demonstrate these qualities. We then complement these selection criteria by conducting background checks on all potential employees.
         </p>
-        <p>
-          Our commitment doesn′t stop at the end of your work day. We are working behind the scenes, scheduling employees, processing time and attendance data, and working with your management 
-          team 24 hours a day to ensure that our employees merge with your operations in a seamless partnership. Tumi Staffing provides you with a dedicated Service Manager who is on call 24 hours a day. 
-          This dedication provides you with peace of mind, by knowing that with a single phone call, we are able to assist you in mobilizing workforce changes to meet the changing needs of your hotel.
-        </p>
+
+        <table className="Services-table" style={{marginTop: '1.5rem'}} width="100%" border="1" cellspacing="0" cellpadding="0">
+          <tbody>
+              <tr>
+                  <th style={{fontWeight: 'bold'}}>Operations</th>
+                  <th style={{fontWeight: 'bold'}}>F&amp;B</th>
+                  <th style={{fontWeight: 'bold'}}>Other Departments</th>
+              </tr>
+              <tr>
+                  <td>Housekeeping</td>
+                  <td>Dish Washers</td>
+                  <td>Grounds &amp; Landscaping</td>
+              </tr>
+              <tr>
+                  <td>Laundry Attendants</td>
+                  <td>Bussers</td>
+                  <td>Golf course maintenance</td>
+              </tr>
+              <tr>
+                  <td>Public Area Attendants</td>
+                  <td>Waitstaff</td>
+                  <td>Recreation</td>
+              </tr>
+              <tr>
+                  <td>Housekeeping Supervisors</td>
+                  <td>Stewarding</td>
+                  <td>Pool Attendants</td>
+              </tr>
+              <tr>
+                  <td>Maintenance</td>
+                  <td>Bartenders</td>
+                  <td>Administrative</td>
+              </tr>
+              <tr>
+                  <td>Bellmen</td>
+                  <td>Banquet Houseman</td>
+                  <td>Data entry</td>
+              </tr>
+              <tr>
+                  <td>Front Desk</td>
+                  <td>Banquet Servers</td>
+                  <td>Accounting</td>
+              </tr>
+              <tr>
+                  <td>Night Audit</td>
+                  <td>Cooks</td>
+                  <td>Sales</td>
+              </tr>
+          </tbody>
+        </table>
       </>
     )
   }

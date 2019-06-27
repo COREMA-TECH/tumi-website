@@ -3,6 +3,7 @@ import PostPage from '../components/postPage';
 import NavBlock from '../components/nav';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import {Link} from 'gatsby'
 
 import banner from "../images/compliance-banner.jpg";
 import contentPic from '../images/compliance-content-2.jpg';
@@ -20,6 +21,9 @@ const Compliance = () => {
           </p>
           <p>
             With Tumi Staffing you have a staffing partner who believes in compliance and eliminating any possible liabilities for our hotel partners.
+          </p>
+          <p>
+            Come learn more <Link to='/about'>ABOUT US</Link> and our team, and how we can translate our experience into increased savings and quality for your hotel.
           </p>
         </>
       )

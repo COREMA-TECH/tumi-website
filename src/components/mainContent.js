@@ -14,7 +14,7 @@ const MainContent = _ => {
         <>
             <div id="smoothstate-wrapper">
                 <div className="smoothstate-container">
-                    <section className="banner-container show-for-large">
+                    <section className="banner-container show-for-large home-banner">
                         <div className="video-background">                            
                             <div className="banner-overlay"></div>
                         </div>
@@ -46,17 +46,31 @@ const MainContent = _ => {
                                 </div>
                                 <div className="small-12 large-5 large-offset-1 columns end">
                                     <div className="row">
-                                        <div className="small-12 medium-10 medium-centered large-12 columns">
+                                        <div className="small-12 medium-10 medium-centered large-12 columns">                                            
                                             <p>
-                                                What you want to do and what you can do... Is limited only by what you can dream
+                                                Tumi Staffing is one of the nation's premier hospitality staffing providers. 
+                                                Formed by hospitality professionals, we are dedicated to helping your hotel achieve greater customer satisfaction, increased QA scores, 
+                                                boost efficiencies and reduce costs. With our background in the hospitality industry and our dedication to quality, we are uniquely positioned
+                                                 to help your hotel achieve greater bottom line profits while increasing guest satisfaction. 
                                             </p>
                                             <p>
-                                                Tumi Staffing is one of the nation's premier hospitality staffing providers. Formed by hospitality professionals, we are dedicated to helping your hotel achieve greater customer satisfaction, increased QA scores, boost efficiencies and reduce costs. With our background in the hospitality industry and our dedication to quality, we are uniquely positioned to help your hotel achieve greater bottom line profits while increasing guest satisfaction. 
-                                            </p>
+                                                Staffing for hotels has very unique requirements including the need for service oriented people, as well as technical skills
+                                                and a work ethic that makes our employees successful in the hotel environment. In our interview process, we screen for these
+                                                characteristics that lead to long term success in the hospitality industry. Tumi Staffing is committed to your success, and custom tailors our staffing solutions to fit your needs.
+                                            </p>                                            
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                                <div className="small-12 large-10 large-offset-1 columns end">
+                                    <p>
+                                        Our commitment doesn′t stop at the end of your work day. 
+                                        We are working behind the scenes, scheduling employees, processing time and attendance data, and working with your management
+                                        team 24 hours a day to ensure that our employees merge with your operations in a seamless partnership. Tumi Staffing provides
+                                        you with a dedicated Service Manager who is on call 24 hours a day. This dedication provides you with peace of mind, by knowing
+                                        that with a single phone call, we are able to assist you in mobilizing workforce changes to meet the changing needs of your hotel.
+                                    </p>                                    
+                                </div>
+                            </div>                            
                         </section>
                         <section className="section-container book-ends white-bg">
                             <div className="row no-padding collapse">

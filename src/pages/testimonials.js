@@ -1,17 +1,17 @@
 import React from "react"
-import About from '../components/about';
+import Testimonials from '../components/testimonials';
 import NavBlock from '../components/nav';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const AboutUs = _ => {
+const TestimonialQuotes = _ => {
     return (  
         <Layout>
             <SEO title="Employment" />
             <NavBlock />
-            <About />       
+            <Testimonials />       
         </Layout>
       )
 }
 
-export default AboutUs;
+export default TestimonialQuotes;

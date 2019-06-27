@@ -1,15 +1,20 @@
-import React, {Fragment} from 'react';
-import {Helmet} from 'react-helmet';
-import about_background from '../images/about-us-bg.jpg';
+import React, { Fragment } from 'react';
+import Helmet from 'react-helmet';
+import about_background from '../images/about-us-poolside.jpg';
+import claudia_pic from '../images/about-claudia-vertical.png';
+import stephen_pic from '../images/about-stephen-vertical.png';
+import joana_pic from '../images/joana-marie-vertical.jpg';
+import { Link } from 'gatsby';
 
-const About = _ => {    
+const About = props => {
     return (
         <Fragment>
             <Helmet 
                 bodyAttributes={{
-                    class: 'page-template-default page page-id-110 Tumi'
+                    class: 'success-story-template-default single single-success-story postid-418 Tumi'
                 }}
             />
+
             <div class="nav-bg">
                 <div class="row rule-lines">
                     <span></span>
@@ -92,92 +97,77 @@ const About = _ => {
                     </filter>
                 </svg>
             </div>
-            <main id="main-container" role="main" class="light-bg">
-                <div class="banner-container page-bg half-on-small">
-                    <div class="section-bg fixed">
-                        <div class="section-overlay"></div>
-                        <img width="1600" height="1200" src={about_background} class="image-cover object-fit" alt="" />			
-                    </div>
-                    <div class="banner-content hide-for-large">
-                        <h1 class="h2">Kind Words</h1>
-                    </div>
-                </div>
-                <section class="contact-container">
-                    <div class="contact-element" data-waypoint-trigger>
-                        <div class="container white-bg large-padded">
-                            <div class="row collapse show-for-large">
-                                <div class="large-6 columns">
-                                    <h1 class="h3">Kind Words</h1>
-                                </div>
-                            </div>
-                            <br class="show-for-large"/>
-                            <div class="content">
-                                <p>As one of the leading hospitality recruitment companies we provide our clients with a professional, tailor made and cost effective recruitment solution.</p>
-                            </div>
-                            <br class="show-for-large"/>                            
+            <main id="main-container" role="main">
+                <section class="MainPost">
+                    <div class="banner-container">                        
+                        <div class="section-bg fixed">
+                            <div class="section-overlay"></div>
+                            <img width="1600" height="1200" src={about_background} class="image-cover object-fit" alt="" />				
                         </div>
                     </div>
-                    <div class="contact-element">
-                        <div class="container large-padded">
-                            <div role="form" class="wpcf7" id="wpcf7-f359-o1" lang="en-CA" dir="ltr">
-                                <div class="screen-reader-response"></div>
-                                <h2 class='Tumi-aboutText About-title'>WHAT OUR CUSTOMERS SAY ABOUT US</h2>
-                                <blockquote class='Tumi-aboutText'>The candidates provided by Tumi have always exceeded my expectations.</blockquote>
-                                <blockquote class='Tumi-aboutText'>They listen carefully and take on board the real needs of the role in question.</blockquote>
-                                <blockquote class='Tumi-aboutText'>I always receive a very quick response on short notice requirements which means I have cover at all times.</blockquote>
-                                <blockquote class='Tumi-aboutText'>Tumi have really been 'going the extra mile for me' which I have greatly appreciated. </blockquote>
-                                <blockquote class='Tumi-aboutText'>Tumi was able to provide us with high quality staff, quickly, efficiently and at highly competitive prices.</blockquote>
-                                <blockquote class='Tumi-aboutText'>They are always getting back to me straight away with anything I need and they have exceptional service.</blockquote>
+                    <div class="inner-section no-padding" data-waypoint-trigger>
+                        <div class="row collapse">
+                            <div class="large-12 columns MainPost-content">
+                                <div class="container white-bg large-padded">
+                                    <div class="above-the-fold">
+                                        <h1>About Us</h1>
+                                        <h2 class="text-uppercase small-h2 Tumi-subtitle">We are dedicated to helping your hotel achieve greater customer satiscfaction and profitability.</h2>                                        
+                                    </div>
+                                    <p>Tumi Staffing is the nation’s leading Hospitality Staffing provider. We focus on resorts, full service and select service brands, and develop long-term solutions with our hotel partners.</p>                                   
+                                    <p>We are hoteliers with over 30 years experience in the hospitality industry, and understand the needs of hotels in developing reliable and cost effective long term staffing solutions.</p>
+                                    <p>Tumi Staffing was formed in 2005 as in response to the need for hospitality staffing in the aftermath of hurricane Katrina, where the influx of hurricane refugees created an urgent need for additional hotel staff.</p>
+                                    <p>Based in San Antonio, Texas, Tumi Staffing provides hospitality staffing to cities throughout Texas, and has recently begun to expand throughout the southeast in response to requests from some of our staffing partners with multiple locations.</p>
+                                </div>                                
+                            </div>
+                            <div class="large-12 columns About-story">
+                                <div class="container white-bg large-padded About-storyWrapper">
+                                    <div class="image-block About-image">
+                                        <img src={claudia_pic} alt="Claudia Robbins"/>
+                                    </div>                                                                   
+                                    <div className="About-storyContent">
+                                        <h2 className="About-storyTitle">Claudia Robbins</h2>                                        
+                                        <span className="About-storySubtitle">President</span>
+
+                                        <p className="About-storyText">Claudia Robbins established Tumi Staffing in 2005 to provide a high level of professionalism to Hospitality Staffing, by providing contract workers who have the same commitment to service and work ethic as the hotel’s direct hire employees.</p>
+                                        <Link className='border-btn' to='/claudia-robbins'>Read More</Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="large-12 columns About-story">
+                                <div class="container white-bg large-padded About-storyWrapper reversed">
+                                    <div class="image-block About-image">
+                                        <img src={stephen_pic} alt="Stephen Robbins"/>
+                                    </div>                                                                   
+                                    <div className="About-storyContent">
+                                        <h2 className="About-storyTitle">Stephen Robbins</h2>                                        
+                                        <span className="About-storySubtitle">Vice President Operations</span>
+
+                                        <p className="About-storyText">Stephen Robbins brings over 25 years of hospitality experience to Tumi Staffing. Having served as Executive Housekeeper with the award winning luxury Wynfrey Hotel at the Galleria in Birmingham, Alabama, as well as the Historic Grove Park Inn in Asheville, North Carolina, Robbins knows firsthand what a difference the right staff can make in quality and service delivery.</p>
+                                        <Link className='border-btn' to='/stephen-robbins'>Read More</Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="large-12 columns About-story">
+                                <div class="container white-bg large-padded About-storyWrapper">
+                                    <div class="image-block About-image">
+                                        <img src={joana_pic} alt="Joana Marie Manching"/>
+                                    </div>                                                                   
+                                    <div className="About-storyContent">
+                                        <h2 className="About-storyTitle">Joana Marie Manching</h2>                                        
+                                        <span className="About-storySubtitle">Sales &amp; Data Management</span>
+
+                                        <p className="About-storyText">Joana Marie Manching joined Tumi Staffing in 2012 as administrative assistant, and quickly grew into taking on more responsibilities.</p>
+                                        <p className="About-storyText">She now is responsible for coordination of our Strategic Sales Efforts, as well as External Surveys, and Daily Reporting for our full-service resort properties.</p>
+                                        <Link className='border-btn' to='/joana-manching'>Read More</Link>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
-            </main>       
-            <script 
-                dangerouslySetInnerHTML={{
-                    __html: `var recaptchaWidgets = [];
-                    var recaptchaCallback = function() {
-                        var forms = document.getElementsByTagName('form');
-                        var pattern = /(^|\s)g-recaptcha(\s|$)/;
-                    
-                        for (var i = 0; i < forms.length; i++) {
-                            var divs = forms[i].getElementsByTagName('div');
-                    
-                            for (var j = 0; j < divs.length; j++) {
-                                var sitekey = divs[j].getAttribute('data-sitekey');
-                    
-                                if (divs[j].className && divs[j].className.match(pattern) && sitekey) {
-                                    var params = {
-                                        'sitekey': sitekey,
-                                        'theme': divs[j].getAttribute('data-theme'),
-                                        'type': divs[j].getAttribute('data-type'),
-                                        'size': divs[j].getAttribute('data-size'),
-                                        'tabindex': divs[j].getAttribute('data-tabindex')
-                                    };
-                    
-                                    var callback = divs[j].getAttribute('data-callback');
-                    
-                                    if (callback && 'function' == typeof window[callback]) {
-                                        params['callback'] = window[callback];
-                                    }
-                    
-                                    var expired_callback = divs[j].getAttribute('data-expired-callback');
-                    
-                                    if (expired_callback && 'function' == typeof window[expired_callback]) {
-                                        params['expired-callback'] = window[expired_callback];
-                                    }
-                    
-                                    var widget_id = grecaptcha.render(divs[j], params);
-                                    recaptchaWidgets.push(widget_id);
-                                    break;
-                                }
-                            }
-                        }
-                    }`
-                }}
-            />
+            </main>
         </Fragment>
-    )
+    ) 
 }
 
 export default About;
