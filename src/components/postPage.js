@@ -113,10 +113,10 @@ const PostPage = props => {
                             </div>
                             <div class="large-6 columns MainPost-content right">
                                 <div class="image-block show-for-large">
-                                    <img src={props.contentPic} alt=""/>
+                                    {props.contentPic ? (<img src={props.contentPic} alt="" />) : ''}                                    
                                 </div>                                
                                 <div class="image-block hide-for-large">
-                                    <img src={props.contentPic} alt=""/>
+                                    {props.contentPic ? (<img src={props.contentPic} alt="" />) : ''}                                    
                                 </div>
                             </div>
                         </div>

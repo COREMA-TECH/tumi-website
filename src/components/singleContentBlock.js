@@ -92,7 +92,7 @@ const singleContentBlock = props => {
                     </filter>
                 </svg>
             </div>
-            <main id="main-container" role="main">
+            <main id="main-container" role="main" className={props.parentClass ? props.parentClass : ''}>
                 <section class="MainPost">
                     <div class="banner-container">                        
                         <div class="section-bg fixed">
@@ -106,7 +106,8 @@ const singleContentBlock = props => {
                                 <div class="container white-bg large-padded">
                                     <div class="above-the-fold">
                                         <h1>{props.pageTitle}</h1>
-                                        <h2 class="text-uppercase small-h2 Tumi-subtitle">{props.pageSubtitle}</h2>                                        
+                                        <h2 class="text-uppercase small-h2 Tumi-subtitle">{props.pageSubtitle}</h2>    
+                                        {props.renderTitleAreaContent ? props.renderTitleAreaContent() : ''}                                    
                                     </div>
                                     {props.renderContentBlock()}                                    
                                 </div>                                
