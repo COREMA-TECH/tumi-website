@@ -23,7 +23,7 @@ const Footer = _ => {
                                             <li id="menu-item-106" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><Link to="/">Home</Link></li>
                                             <li id="menu-item-361" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-361"><Link to="/services">Services</Link></li>
                                             <li id="menu-item-109" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><Link to="/compliance">Compliance</Link></li>
-                                            <li id="menu-item-109" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><Link to="/about">About Us</Link></li>
+                                            <li id="menu-item-109" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><Link to="/about-us">About Us</Link></li>
                                             <li id="menu-item-1458" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1458"><Link to="/connections">Connections</Link></li>
                                             <li id="menu-item-1458" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1458"><Link to="/employment">Employment</Link></li>
                                         </ul>
