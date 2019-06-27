@@ -24,11 +24,15 @@ const Employment = () => {
           </p>
           <p>
             If you are looking for an opportunity to prove yourself, and your abilities, and you enjoy working with others, come join the Tumi Staffing hospitality team!
-          </p>
-          <div className="cta-wrapper apply-now-wrapper content-button">
-            <a style={{margin: '0px 8px'}} className="border-btn" href="http://orion-dev-web.us-east-2.elasticbeanstalk.com/employment-application" target="_blank">Apply Now</a>
-            <Link style={{margin: '0px 8px'}} className='border-btn' to='/send-resume'>Submit a Resume</Link>
-          </div>
+          </p>          
+        </>
+      )
+    }
+
+    const renderTitleAreaContent = _ => {
+      return(
+        <>
+          <Link className='border-btn Employment-resume' to='/send-resume'>Submit a Resume</Link>
         </>
       )
     }
@@ -43,6 +47,8 @@ const Employment = () => {
           banner={banner}
           contentPic={contentPic}
           renderContentBlock={renderContentBlock}
+          parentClass='Employment'
+          renderTitleAreaContent={renderTitleAreaContent}
         />
       </Layout>
     )

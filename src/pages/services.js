@@ -81,7 +81,6 @@ const Services = () => {
         pageSubtitle="Staffing for hotels has very unique requirements including the need for service oriented people."
         leftText=""
         banner={banner}
-        contentPic={service}
         renderLeftBlock={renderLeftBlock}
       />
     </Layout>

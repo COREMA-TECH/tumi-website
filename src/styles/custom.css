@@ -118,6 +118,18 @@
     flex-direction: row-reverse;
 }
 
+.Employment .banner-container{
+    min-height: 70vh;
+}
+
+.Employment .Employment-resume{
+    margin: '0px 8px';
+
+    position: absolute;
+    right: 4rem;
+    top: 4rem;
+}
+
 @media(min-width: 1024px){
     .Tumi .Tumi-subtitle{
         color: #000;        
@@ -142,7 +154,14 @@
     .About-image{
         margin-bottom: 1.5rem; 
     }
+
+    .Employment .Employment-resume{
+        position: initial;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
+
 
 /* Original style uses this measure for some reason */
 @media screen and (min-width: 64em){
