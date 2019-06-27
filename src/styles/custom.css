@@ -3,6 +3,10 @@
     width: 120px;
 }
 
+.mobile-section-bg img.img-cover{
+    object-position: 59%;
+}
+
 .About-title{
     margin-top: 2.85rem;
 }
