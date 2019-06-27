@@ -4,8 +4,8 @@ import NavBlock from '../components/nav';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import banner from "../images/services-banner.jpg";
-import service from '../images/services-content.jpeg';
+// import banner from "../images/services-banner.jpg";
+import banner from "../images/housekeeper4.jpeg";
 
 const Services = () => {
   
