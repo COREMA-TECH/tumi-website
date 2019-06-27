@@ -40,7 +40,7 @@ const MainContent = _ => {
                                     <div className="row">
                                         <div className="small-12 medium-10 medium-centered large-12 columns">
                                             <h2 className="h1">WELCOME TO<br />TUMI STAFFING</h2>
-                                            <p className="show-for-large"><Link className="border-btn" to='/about'>About Us</Link></p>
+                                            <p className="show-for-large"><Link className="border-btn" to='/about-us'>About Us</Link></p>
                                         </div>
                                     </div>
                                 </div>

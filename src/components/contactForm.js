@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Helmet from 'react-helmet';
-import form_background from '../images/contact-form-bg.jpg';
+import form_background from '../images/contact-bg.png';
 
 class ContactForm extends Component {    
     INITIAL_STATE = {
