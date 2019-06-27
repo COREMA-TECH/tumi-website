@@ -1,6 +1,6 @@
 .top-bar #site-logo.Tumi-logo, .footer-container .Tumi-logo{
     display: block;
-    width: 240px;
+    width: 160px;
 }
 
 .mobile-section-bg img.img-cover{
@@ -162,6 +162,6 @@
 
 @media screen and (min-width: 80em){
     .top-bar #site-logo.Tumi-logo{
-        left: -80px;
+        left: -75px;
     }
 }
