@@ -19,7 +19,7 @@ const MainContent = _ => {
                             <div className="banner-overlay"></div>
                         </div>
                         <div className="banner-content">
-                            <h1 className="h2 Tumi-uppercase">What you want to do and what you can do... <br/>Is limited only by what you can dream</h1>
+                            <h1 className="h2 Tumi-uppercase">What you want to do<br/> and what you can do<br/> Is limited only by what you <br/>can dream</h1>
                         </div>                        
                         <a className="scroll-indicator show-for-large" href="#main-container">Scroll<span style={{display: 'block', textAlign: 'center', padding: '8px'}} className=""><i class="fas fa-arrow-down"></i></span></a>
                     </section>

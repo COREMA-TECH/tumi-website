@@ -33,11 +33,16 @@
 }
 
 .Tumi .banner-container.home-banner{
-    min-height: 100vh;
+    min-height: 110vh;
+}
+
+.Tumi .banner-container.home-banner .scroll-indicator{
+    bottom: 7rem;
 }
 
 .Tumi .banner-container .banner-overlay{
     background-image: url('../images/housekeeping.jpg');
+    background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
