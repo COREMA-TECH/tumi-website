@@ -16,7 +16,7 @@ const NavBlock = _ => {
                         <div class="cta-wrapper apply-now-wrapper">
                             <a class="border-btn" href="http://orion-dev-web.us-east-2.elasticbeanstalk.com/employment-application" target="_blank">Apply Now</a>
                         </div>
-                        <a id="menu-toggle" data-toggle="site-body">
+                        <a id="menu-toggle" class='menu-toggle' data-toggle="site-body">
                             <span class="menu-inner"></span>
                             <p class="menu-title">Menu</p>
                         </a>

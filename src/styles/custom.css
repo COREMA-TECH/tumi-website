@@ -11,6 +11,19 @@
     margin-top: 2.85rem;
 }
 
+.Tumi.Homepage .apply-now-wrapper .border-btn{
+    color: #000;
+    border-color: #000;
+}
+
+.Tumi.Homepage .menu-toggle .menu-inner, .Tumi.Homepage .menu-toggle .menu-inner::before, .Tumi.Homepage .menu-toggle .menu-inner::after{
+    background-color: #000 !important;
+}
+
+.Tumi.Homepage .menu-toggle .menu-title{
+    color: #000;
+}
+
 .Tumi .Smbs-logo{
     display: block;
     margin-left: auto;
