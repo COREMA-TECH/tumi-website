@@ -1,6 +1,5 @@
 import React from 'react';
-
-import op_supervisor_dulce from '../images/Operations-Supervisor_Dulce-Falfan-1280x945-1.jpg';
+import Helmet from 'react-helmet';
 
 import about_claudia_testimonial from '../images/about-claudia-robbins.png';
 import about_stephen_testimonial from '../images/about-stephen-robbins.png';
@@ -11,7 +10,11 @@ import {Link} from 'gatsby';
 
 const MainContent = _ => {
     return (
-        <>
+        <>  
+            <Helmet 
+                bodyAttributes={{ class: 'home page-template-default page page-id-2 Tumi Homepage' }}
+            />               
+            
             <div id="smoothstate-wrapper">
                 <div className="smoothstate-container">
                     <section className="banner-container show-for-large home-banner">
