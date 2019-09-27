@@ -1,6 +1,23 @@
+/* Fonts */
+/* Regular */
+@import url("//db.onlinewebfonts.com/c/4d9ee390d449d37bc17842f3722078d4?family=Copperplate+Gothic");
+
+/* Bold */
+@import url("//db.onlinewebfonts.com/c/c277b2c27239a1c8de888444341d1c62?family=Copperplate+Gothic+Bold");
+
+/* Reset */
+body{
+    font-family: "Copperplate Gothic", serif !important;
+    text-transform: uppercase;
+}
+
+.Tumi .blockquote-block blockquote, .Tumi h1, .Tumi h2, .Tumi h3, .Tumi h4, .Tumi h5, .Tumi h6{
+    font-family: DINCondensed, sans-serif !important;
+}
+
 .top-bar #site-logo.Tumi-logo, .footer-container .Tumi-logo{
     display: block;
-    width: 160px;
+    width: 200px;
 }
 
 .mobile-section-bg img.img-cover{
@@ -199,6 +216,6 @@
 
 @media screen and (min-width: 80em){
     .top-bar #site-logo.Tumi-logo{
-        left: -75px;
+        left: -120px;
     }
 }
