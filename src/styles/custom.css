@@ -1,9 +1,18 @@
 /* Fonts */
 /* Regular */
-@import url("//db.onlinewebfonts.com/c/4d9ee390d449d37bc17842f3722078d4?family=Copperplate+Gothic");
+/* @import url("//db.onlinewebfonts.com/c/4d9ee390d449d37bc17842f3722078d4?family=Copperplate+Gothic"); */
+@font-face {
+    font-family: "Copperplate Gothic";
+    src: url("./copperplate.eot");
+}
+
+@font-face {
+    font-family: "Copperplate Gothic Bold";
+    src: url("./copperplate-bold.eot");
+}
 
 /* Bold */
-@import url("//db.onlinewebfonts.com/c/c277b2c27239a1c8de888444341d1c62?family=Copperplate+Gothic+Bold");
+/* @import url("//db.onlinewebfonts.com/c/c277b2c27239a1c8de888444341d1c62?family=Copperplate+Gothic+Bold"); */
 
 /* Reset */
 body{
