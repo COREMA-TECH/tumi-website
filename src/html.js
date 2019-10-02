@@ -15,6 +15,8 @@ export default function HTML(props) {
         <link rel='dns-prefetch' href='//code.jquery.com' />
         <link rel='dns-prefetch' href='//s.w.org' />  
         <script type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js?ver=2.2.4'></script>
+        <link href="//db.onlinewebfonts.com/c/4d9ee390d449d37bc17842f3722078d4?family=Copperplate+Gothic" rel="stylesheet" type="text/css"/> 
+        <link href="//db.onlinewebfonts.com/c/c277b2c27239a1c8de888444341d1c62?family=Copperplate+Gothic+Bold" rel="stylesheet" type="text/css"/> 
         {/* <link rel="alternate" type="application/rss+xml" title="White Lodging &raquo; Home Comments Feed" href="https://www.whitelodging.com/home/feed/" /> */}
         
         {/* <script 
