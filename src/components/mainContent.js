@@ -21,17 +21,17 @@ const MainContent = _ => {
                         <div className="video-background">                            
                             <div className="banner-overlay"></div>
                         </div>
-                        <div className="banner-content">
-                            <h1 className="h2 Tumi-uppercase">What you want to do<br/> and what you can do<br/> Is limited only by what you <br/>can dream</h1>
+                        <div className="Home-banner banner-content" style={{left: "0", right: "0"}}>
+                            <h1 style={{maxWidth: "920px", margin: "0 auto"}} className="h2 Tumi-uppercase">What you want to do<br/> and what you can do<br/> Is limited only by what you <br/>can dream</h1>
+                            <a className="scroll-indicator show-for-large" href="#main-container">Scroll<span style={{display: 'block', textAlign: 'center', padding: '8px'}} className=""><i class="fas fa-arrow-down"></i></span></a>
                         </div>                        
-                        <a className="scroll-indicator show-for-large" href="#main-container">Scroll<span style={{display: 'block', textAlign: 'center', padding: '8px'}} className=""><i class="fas fa-arrow-down"></i></span></a>
                     </section>
                     <main id="main-container" className="homepage-container" role="main" data-waypoint-trigger>
                         <section className="section-container mobile-intro-section">
                             <div className="mobile-section-bg">
                                 <img width="1280" height="945" src={mobile_bg} className="image-cover object-fit" alt="" />	
                             </div>
-                            <div className="row vertical-center">
+                            <div className="Home-banner mobile-banner-title row vertical-center">
                                 <div className="small-12 medium-centered medium-text-center columns">
                                     <h1 className="h2">What you want to do and what you can do... <br/>Is limited only by what you can dream</h1>                                    
                                 </div>

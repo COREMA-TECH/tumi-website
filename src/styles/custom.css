@@ -62,12 +62,35 @@ body{
     min-height: 45vh;
 }
 
+.Tumi .Home-banner.banner-content{
+    background-color: rgba(238, 186, 60, 0.6);
+    padding: 12px 0;
+}
+
+.Tumi .Home-banner.mobile-banner-title{
+    background-color: rgba(238, 186, 60, 0.6);    
+}
+
+.Tumi .Home-banner.mobile-banner-title .h2{
+    color: #000;
+    font-family: "Copperplate Gothic", serif !important;
+    font-size: 32px;
+    letter-spacing: 0px;    
+}
+
+.Tumi .Home-banner.banner-content .h2{
+    color: #000;
+    font-family: "Copperplate Gothic", serif !important;
+    font-size: 32px;
+    letter-spacing: 0px;
+}
+
 .Tumi .banner-container.home-banner{
     min-height: 110vh;
 }
 
 .Tumi .banner-container.home-banner .scroll-indicator{
-    bottom: 7rem;
+    bottom: -70px;
 }
 
 .Tumi .banner-container .banner-overlay{
@@ -201,7 +224,7 @@ body{
 /* Original style uses this measure for some reason */
 @media screen and (min-width: 64em){
     .top-bar #site-logo.Tumi-logo{
-        left: 80px;
+        left: 105px;
     }
     
     .Tumi .banner-container .banner-content{
@@ -216,6 +239,6 @@ body{
 
 @media screen and (min-width: 80em){
     .top-bar #site-logo.Tumi-logo{
-        left: -120px;
+        left: -2vw;
     }
 }
