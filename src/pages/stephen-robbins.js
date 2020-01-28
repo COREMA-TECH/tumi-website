@@ -24,7 +24,7 @@ const StephenStory = _ => {
                     Stephen Robbins serves as Vice President of Operations for Tumi Staffing, providing Executive Level Management for the company including Strategic and Tactical planning, sales and marketing, and Accounting support for the staffing operations.
                 </p>
                 <p>
-                    You can contact Stephen with your staffing needs by e-mailing him at: <a className='Tumi-inlineLink' href="mailto:stephenr@tumistaffing.com">stephenr@tumistaffing.com</a> or via telephone, at <a className='Tumi-inlineLink' href="tel:210.853.2099">210.853.2099</a>.
+                    You can contact Stephen with your staffing needs by e-mailing him at: <a className='Tumi-inlineLink' href="mailto:stephenr@tumistaffing.com">stephenr@tumistaffing.com</a> or via telephone, at <a className='Tumi-inlineLink' href="tel:512.772.4080">512.772.4080</a>.
                 </p>
             </>
         )

@@ -31,7 +31,7 @@ const Footer = _ => {
                                 </div>
                                 <div className="small-12 columns text-right" data-mh="footer-columns">
                                     <p>&copy; 2012 Tumi Staffing, Inc PO Box 592715 San Antonio, TX 78259</p>
-                                    <p>210.853.2099</p>
+                                    <p><a href="tel:512-772-4080">512.772.4080</a></p>
                                     <p><a href="mailto:info@tumistaffing.com">info@tumistaffing.com</a></p>
                                 </div>                                
                             </div>

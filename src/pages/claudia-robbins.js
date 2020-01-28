@@ -21,7 +21,7 @@ const ClaudiaStory = _ => {
                     Claudia Robbins is a native of Lima, Peru. She graduated from the Facultad de Medicina at Universidad Autonomia de Nuevo Leon in Monterrey Mexico, (UANL) with her doctorate of medicine. In 2001 she was selected to present at the National Congress of Biomedical Investigation as well as the Mexican Society of Nephrology.
                 </p>
                 <p>
-                    You can contact Claudia with your staffing needs by e-mailing her at: <a className='Tumi-inlineLink' href="mailto:claudiar@tumistaffing.com">claudiar@tumistaffing.com</a> or via telephone, at <a className='Tumi-inlineLink' href="tel:210.853.2099">210.853.2099</a>.
+                    You can contact Claudia with your staffing needs by e-mailing her at: <a className='Tumi-inlineLink' href="mailto:claudiar@tumistaffing.com">claudiar@tumistaffing.com</a> or via telephone, at <a className='Tumi-inlineLink' href="tel:512.772.4080">512.772.4080</a>.
                 </p>
             </>
         )
